@@ -1142,7 +1142,7 @@ def main():
                 
 # ---------------Fits to db prgoram added here.................................................
 
-                # file_path='/data/archived_data/astro_data/final_data/2024/Oct/DFOT/2K_IMG1/20241009'
+                
                 file_path = (os.path.relpath(db_dest_path, rel_path)) # Relative file path to be inserted in the database
 
                 nofp=0 # No of files processed
