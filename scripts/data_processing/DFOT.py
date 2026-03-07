@@ -85,13 +85,16 @@ from scp import SCPClient
 # SSH / secure file transfer
 # ============================================================
 import yaml
-
+# Paths
 with open("/home/archive/Documents/ARIES-archive/config/paths.yaml", "r") as file:
     paths_yaml = yaml.safe_load(file)
 
-# print(data)                 # prints full YAML as Python dict
+#  Credentials
+with open("/home/archive/Documents/ARIES-archive/config/credentials/db_archive.yaml", "r") as cred:
+    cred_yaml = yaml.safe_load(cred)
+print(cred_yaml['user'])                 # prints full YAML as Python dict
 
-#  get_current_cycle_name() output current cylce name using current date.
+# #  get_current_cycle_name() output current cylce name using current date.
 
 def get_current_cycle_name():
     """
@@ -211,7 +214,7 @@ def rewrite_file_name(folder_path):
 
 def generate_template(subfolder_path, file_template,worng_files):
     # Create the necessary directories for the output file
-    valid_filters = {'U', 'B', 'V', 'R', 'I', 'Ha', 'OIII', 'none', 'FREE', 'FLAT'}
+    valid_filters = {'U', 'B', 'V', 'R', 'I', 'Ha', 'OIII', 'none', 'FREE', 'FLAT','H-ALPHA'}
     os.makedirs(os.path.dirname(file_template), exist_ok=True)
     # print(output_file_path)
     # Open the output file for writing
@@ -305,7 +308,7 @@ def generate_template(subfolder_path, file_template,worng_files):
 
 def extract_and_check_filter1(file_path,folder_name,file_template,f,worng_files):
     # List of valid filters
-    valid_filters = {'U', 'B', 'V', 'R', 'I', 'Ha',"H_ALPHA", 'OIII', 'none', 'FREE', 'FLAT'}
+    valid_filters = {'U', 'B', 'V', 'R', 'I', 'Ha',"H-ALPHA", 'OIII', 'none', 'FREE', 'FLAT'}
     
     # Initialize an empty list to store FILTER1 values
     filter1_array = []
@@ -1053,6 +1056,7 @@ def main():
 
     final_folders = find_final_folders(Base_folder)
     print("List of 'Final_folder' directories:")
+    db_paths =[]
     for subfolder in process_file_df.index:
         subfolder_path = os.path.join(Base_folder,str(subfolder))+"/Final_data"
         # print(subfolder_path)
@@ -1072,19 +1076,21 @@ def main():
                 telescope =random_split[5] 
                 instrument =random_split[6].split('.')[0] 
                 db_dest_path = paths_yaml['rel_path']+'/'+str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)
+                db_paths.append(db_dest_path)
                 dest_path =  f'/data/DFOT_DATA/{cycle}Final_data/'+str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)
                 thumpnail_path = paths_yaml['thump_path'] +str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)+'/thumbnails'
                 if os.path.exists(dest_path):
                     print('Destination exist with path : '+dest_path)
                 else:
-                    shutil.copytree(folder,db_dest_path)
-                    print(folder+ "--------------> copied to db")
+                    if not os.path.exists(db_dest_path):
+                        shutil.copytree(folder,db_dest_path)
+                        print(folder+ "--------------> copied to db")
                     # print(folder+ "--------------> copied to final data")
                     # shutil.copytree(folder,dest_path)
                     if os.path.exists(folder+'/thumbnails'):
-                        shutil.copytree(folder+'/thumbnails',thumpnail_path)~
-                
-# ---------------Fits to db prgoram added here.................................................
+                        if not os.path.exists(thumpnail_path):
+                            shutil.copytree(folder+'/thumbnails',os.path.dirname(thumpnail_path))
+
 
                 # file_path='/data/archived_data/astro_data/final_data/2024/Oct/DFOT/2K_IMG1/20241009'
                 file_path = (os.path.relpath(db_dest_path, paths_yaml['rel_path'])) # Relative file path to be inserted in the database
@@ -1104,36 +1110,17 @@ def main():
                 #infile.write('  {}\t {}\t {}\t {}\t {}\t {}\t {}\t {}\t {}\t {}\t \n'.format("OBSTimestamp","Observer","Object","RA","DEC","Filter","Filter1","Filter2","Instrument","FileName","Full Path","PROPID"))
 
                 #Database connectivity
-                # try:
-                #     connection = psycopg2.connect(user="archive_rw",
-                #                                 password="aRCH!Ve#uSRrw",
-                #                                 host="127.0.0.1",
-                #                                 port="5432",
-                #                                 database="db_archive")
-                #     cursor = connection.cursor()
-                # except Exception as error:
-                #         infile.write(str(error))
-                #         print (error)
+                connection = None
                 try:
-                    with open(os.path.join(paths_yaml['DIR_DOC']),"credentials/db_archive.yaml", "r") as f:
-                        config = yaml.safe_load(f)
-
-                    db_cfg = config["postgres"]
-
-                    connection = psycopg2.connect(
-                        user=db_cfg["user"],
-                        password=db_cfg["password"],
-                        host=db_cfg["host"],
-                        port=db_cfg["port"],
-                        database=db_cfg["database"]
-                    )
+                    connection = psycopg2.connect(user=cred_yaml['user'],
+                                                password=cred_yaml['password'],
+                                                host=cred_yaml['host'],
+                                                port=cred_yaml['port'],
+                                                database=cred_yaml['database'])
                     cursor = connection.cursor()
-
                 except Exception as error:
-                    infile.write(str(error) + "\n")
-                    print(error)                        
-
-
+                        infile.write(str(error))
+                        print (error)
                 for fname in os.listdir(db_dest_path):
                     if os.path.splitext(fname)[1]!=".fits":continue
                     fpath=os.path.join(db_dest_path,fname)
@@ -1242,6 +1229,7 @@ def main():
                     except Exception as error:
                         infile.write(str(error))
                         print (error)
+
                         connection.rollback()
                     else:
                         connection.commit()
@@ -1259,5 +1247,11 @@ def main():
                 if connection:
                     cursor.close()
                     connection.close
+
+
+                    
                 infile.close()
+
+
+
 main()
