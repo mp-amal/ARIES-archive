@@ -44,8 +44,8 @@ def main():
         sys.exit(1)
 
     try:
-        source = config["dfot_source"]
-        destination = os.path.join(config["dfot_destination"])
+        source = config["adfosc_source"]
+        destination = os.path.join(config["adfosc_destination"])
         password = config["password"]
     except KeyError as e:
         print(f"Missing key in YAML file: {e}")

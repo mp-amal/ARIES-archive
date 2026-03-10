@@ -5,8 +5,7 @@ import sys
 import subprocess
 import yaml
 from datetime import datetime
-CONFIG_FILE = "./ARIES-archive/config/credentials/NAS_MANORA.yaml"
-
+CONFIG_FILE = "/home/archive/Documents/ARIES-archive/config/credentials/NAS_MANORA.yaml"
 def get_current_cycle_name():
     """
     Return cycle name based on today's date.
@@ -33,8 +32,6 @@ def get_current_cycle_name():
         return None
     
 cycle =get_current_cycle_name()
-
-
 def main():
     try:
         with open(CONFIG_FILE, "r") as f:
@@ -44,8 +41,8 @@ def main():
         sys.exit(1)
 
     try:
-        source = config["dfot_source"]
-        destination = os.path.join(config["dfot_destination"])
+        source = config["st_source"]
+        destination = config["st_destination"]
         password = config["password"]
     except KeyError as e:
         print(f"Missing key in YAML file: {e}")
