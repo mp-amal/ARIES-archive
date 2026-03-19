@@ -1,0 +1,53 @@
+SiteTelInfoFile: /home/archive/Documents/program/DOT/ADFOSC/ADFOSC-ARIES-main_V1.2/site_telescope_info.yaml 
+Tempelate_Headers: /home/archive/Documents/program/DOT/ADFOSC/ADFOSC-ARIES-main_V1.2/Master_headers.yaml
+log_path: /data/DOT_LOG/adfosc_log
+log_access_mode: 0
+list_tol_time: 30
+dt_access_time: 10
+
+ADFC_ICS_PARAMETERS:
+  NB: 
+    0: "Clear-Imaging",
+    1: "Clear-Spectroscopy",
+    2: "H-beta/491.6nm",
+    3: "DCF",
+    4: "H-alpha/660.9nm",
+    5: "H-alpha/ 674.3nm",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " "
+  SW: 
+    0: "clear",
+    1: "Brass large",
+    2: "SS",
+    3: "SS",
+    4: "SS narrow",
+    5: "Slit holder",
+    6: " ",
+    7: " ",
+    8: " ",
+    9: " "
+  BB: 
+    0: "z",
+    1: "WP",
+    2: "u",
+    3: "BG39",
+    4: "g",
+    5: "RG610",
+    6: "r",
+    7: "Clear",
+    8: "i",
+    9: "Clear"
+  GW: 
+    0: "Clear",
+    1: "770R-300g/mm",
+    2: "132R-600g/mm",
+    3: "460R-830.7g/mm",
+    4: "676R-420g/mm",
+    5: "Prism",
+    6: "DIMM prism",
+    7: "Clear",
+    8: "100g/mm",
+    9: "Clear"
+

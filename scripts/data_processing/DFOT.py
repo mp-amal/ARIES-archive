@@ -1082,14 +1082,29 @@ def main():
                 if os.path.exists(dest_path):
                     print('Destination exist with path : '+dest_path)
                 else:
-                    # if not os.path.exists(db_dest_path):
                     shutil.copytree(folder,db_dest_path)
                     print(folder+ "--------------> copied to db")
                     # print(folder+ "--------------> copied to final data")
                     # shutil.copytree(folder,dest_path)
                     if os.path.exists(folder+'/thumbnails'):
-                        if not os.path.exists(thumpnail_path):
-                            shutil.copytree(folder+'/thumbnails',os.path.dirname(thumpnail_path))
+                        shutil.copytree(folder+'/thumbnails',thumpnail_path)               
+                
+                
+                
+                
+                
+                
+                # if os.path.exists(dest_path):
+                #     print('Destination exist with path : '+dest_path)
+                # else:
+                #     # if not os.path.exists(db_dest_path):
+                #     shutil.copytree(folder,db_dest_path)
+                #     print(folder+ "--------------> copied to db")
+                #     # print(folder+ "--------------> copied to final data")
+                #     # shutil.copytree(folder,dest_path)
+                #     if os.path.exists(folder+'/thumbnails'):
+                #         if not os.path.exists(thumpnail_path):
+                #             shutil.copytree(folder+'/thumbnails',os.path.dirname(thumpnail_path))
 
 
                 # file_path='/data/archived_data/astro_data/final_data/2024/Oct/DFOT/2K_IMG1/20241009'

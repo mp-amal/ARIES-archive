@@ -5,7 +5,7 @@ import sys
 import subprocess
 import yaml
 from datetime import datetime
-CONFIG_FILE = "./ARIES-archive/config/credentials/NAS_MANORA.yaml"
+CONFIG_FILE = "/home/archive/Documents/ARIES-archive/config/credentials/NAS_MANORA.yaml"
 
 def get_current_cycle_name():
     """
