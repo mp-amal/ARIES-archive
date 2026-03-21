@@ -29,7 +29,7 @@ def get_current_cycle_name():
         return f"{year}B"
     elif month == 1:
         return f"{year - 1}B"
-    else:
+    else: 
         return None
     
 cycle =get_current_cycle_name()
