@@ -273,6 +273,7 @@ def main():
 
     print(for_process)
     for date in for_process:
+        print('Start :',date)
 
         log_path = f'/data/{TELESCOPE}/ADFOSC/{cycle}/rawdata/{date}/{date}_adfosc_log/'
         c = check_log_files(log_path,date)
@@ -301,7 +302,7 @@ def main():
                         with fits.open(file_path, ignore_missing_simple=True) as hdul:
                             # relative_path = os.path.relpath(file_path, start=local_path)
                             header = hdul[0].header
-                            print(header['TYPE'])
+                            # print(header['TYPE'])
                             
                             process_dir_path =os.path.join(Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/Final_data"),date)
                             try:
@@ -416,96 +417,95 @@ def main():
                                                     if not os.path.exists(os.path.join(os.path.dirname(image_path),'failed_astrometry')):
                                                         os.makedirs(os.path.join(os.path.dirname(image_path),'failed_astrometry'))
                                                         shutil.move(image_path,os.path.join(os.path.dirname(image_path),'failed_astrometry'))
+        if os.path.exists(process_dir_path):                 
+            fit_files = [f for f in os.listdir(process_dir_path) if f.lower().endswith('.fits')]
+            print(fit_files)
+
+            random_file = random.choice(fit_files)
+            # print(random_file)
+            random_split = random_file.split('-')
+
+            year = random_split[2]
+            mon =random_split[3]
+            month =get_month_abbreviation(mon)
+            day =random_split[4].split('T')[0]
+            date_folder=os.path.basename(str(date))
+            telescope =random_split[5] 
+            instrument =random_split[6].split('.')[0] 
+            db_dest_path = paths_yaml['rel_path']+'/'+str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)
+            # db_paths.append(db_dest_path)
+            thumpnail_path = paths_yaml['thump_path'] +str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)+'/thumbnails'
+            if os.path.exists(db_dest_path):
+                print('Destination exist with path : '+db_dest_path)
+            else:
+                shutil.copytree(process_dir_path,db_dest_path)
+                print(process_dir_path+ "--------------> copied to db")
+                if os.path.exists(process_dir_path+'/thumbnails'):
+                    shutil.copytree(process_dir_path+'/thumbnails',thumpnail_path)               
+
+
+            if date not in lines[1:]:
+                with open(ad, "a") as f:
+                    f.write(f"{date}\n")
+
+            folder_to_share = os.path.join(paths_yaml['adfosc_final'],date)
+
+            for path, dirs, files in os.walk(folder_to_share):
+                # print(path)
+                for file in files:
+                    if file.endswith('.fits'):
+                        # print(file)
+                        file_to_share = os.path.join(path,file)
+                        with fits.open(file_to_share) as hdul:
+                            header = hdul[0].header
+                            path_to_move =os.path.dirname(header['ORIGFILE'])
+                            # print(path_to_move)
+                            # print(file_to_share)
+                            user_folder_structure = os.path.join(paths_yaml['adfosc_data_share'],path_to_move,file)
+                            os.makedirs(os.path.dirname(user_folder_structure),exist_ok=True)
+                            print(user_folder_structure)
                             
-    
-        fit_files = [f for f in os.listdir(process_dir_path) if f.lower().endswith('.fits')]
-        print(fit_files)
 
-        random_file = random.choice(fit_files)
-        # print(random_file)
-        random_split = random_file.split('-')
+                            shutil.copy(file_to_share, user_folder_structure)
+            
+            import paramiko
+            from scp import SCPClient
 
-        year = random_split[2]
-        mon =random_split[3]
-        month =get_month_abbreviation(mon)
-        day =random_split[4].split('T')[0]
-        date_folder=os.path.basename(str(date))
-        telescope =random_split[5] 
-        instrument =random_split[6].split('.')[0] 
-        db_dest_path = paths_yaml['rel_path']+'/'+str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)
-        # db_paths.append(db_dest_path)
-        thumpnail_path = paths_yaml['thump_path'] +str(year)+"/"+str(month)+"/"+str(telescope)+"/"+str(instrument)+"/"+str(date_folder)+'/thumbnails'
-        if os.path.exists(db_dest_path):
-            print('Destination exist with path : '+db_dest_path)
-        else:
-            shutil.copytree(process_dir_path,db_dest_path)
-            print(process_dir_path+ "--------------> copied to db")
-            if os.path.exists(process_dir_path+'/thumbnails'):
-                shutil.copytree(process_dir_path+'/thumbnails',thumpnail_path)               
+            server_ip = arch_cred['ip']
+            username = arch_cred['user']
+            password = arch_cred['password']
 
+            remote_folder = "/home/archive/data/Data_Share/DOT"
+            local_folder = os.path.join('/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT',date)
 
-        if date not in lines[1:]:
-            with open(ad, "a") as f:
-                f.write(f"{date}\n")
+            # =========================
+            # CREATE SSH CONNECTION
+            # =========================
+            def create_ssh_client(ip, user, passwd):
+                ssh = paramiko.SSHClient()
+                ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+                ssh.connect(hostname=ip, username=user, password=passwd)
+                return ssh
 
-        folder_to_share = os.path.join(paths_yaml['adfosc_final'],date)
+            # =========================
+            # MAIN
+            # =========================
+            try:
+                ssh = create_ssh_client(server_ip, username, password)
 
-        for path, dirs, files in os.walk(folder_to_share):
-            # print(path)
-            for file in files:
-                if file.endswith('.fits'):
-                    # print(file)
-                    file_to_share = os.path.join(path,file)
-                    with fits.open(file_to_share) as hdul:
-                        header = hdul[0].header
-                        path_to_move =os.path.dirname(header['ORIGFILE'])
-                        # print(path_to_move)
-                        # print(file_to_share)
-                        user_folder_structure = os.path.join(paths_yaml['adfosc_data_share'],path_to_move,file)
-                        os.makedirs(os.path.dirname(user_folder_structure),exist_ok=True)
-                        print(user_folder_structure)
-                        
+                # create remote folder if not exists
+                ssh.exec_command(f'mkdir -p "{remote_folder}"')
 
-                        shutil.copy(file_to_share, user_folder_structure)
-        
-        import paramiko
-        from scp import SCPClient
+                # copy folder
+                with SCPClient(ssh.get_transport()) as scp:
+                    scp.put(local_folder, remote_path=remote_folder, recursive=True)
 
-        server_ip = arch_cred['ip']
-        username = arch_cred['user']
-        password = arch_cred['password']
+                print("Folder copied successfully.")
 
-        remote_folder = "/home/archive/data/Data_Share/DOT"
-        local_folder = os.path.join('/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT',date)
+                ssh.close()
 
-        # =========================
-        # CREATE SSH CONNECTION
-        # =========================
-        def create_ssh_client(ip, user, passwd):
-            ssh = paramiko.SSHClient()
-            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            ssh.connect(hostname=ip, username=user, password=passwd)
-            return ssh
-
-        # =========================
-        # MAIN
-        # =========================
-        try:
-            ssh = create_ssh_client(server_ip, username, password)
-
-            # create remote folder if not exists
-            ssh.exec_command(f'mkdir -p "{remote_folder}"')
-
-            # copy folder
-            with SCPClient(ssh.get_transport()) as scp:
-                scp.put(local_folder, remote_path=remote_folder, recursive=True)
-
-            print("Folder copied successfully.")
-
-            ssh.close()
-
-        except Exception as e:
-            print("Error:", e)
+            except Exception as e:
+                print("Error:", e)
 
         # file_path = (os.path.relpath(db_dest_path, paths_yaml['rel_path'])) # Relative file path to be inserted in the database
 
