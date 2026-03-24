@@ -1,0 +1,2177 @@
+receiving incremental file list
+./
+20260322/
+20260322/Bias_01.fits
+20260322/Bias_02.fits
+20260322/Bias_03.fits
+20260322/Bias_04.fits
+20260322/Bias_05.fits
+20260322/SN2025advo_B_350s_01_02.fits
+20260322/SN2025advo_I_200_01_02.fits
+20260322/SN2025advo_R_250s_01_02.fits
+20260322/SN2025advo_V_300s_01_02.fits
+20260322/SN2026dgt_B_250_01_03.fits
+20260322/SN2026dgt_I_150_01_03.fits
+20260322/SN2026dgt_R_200_01_03.fits
+20260322/SN2026dgt_V_250_01_03.fits
+20260322/SN202cff_I_150__01_02.fits
+20260322/SN202cff_R_200__01_03.fits
+20260322/test_SN2025advo_I_60_01.fits
+20260322/test_SN2026dgt_I_60_01.fits
+20260322/test_SN202cff_I_60_01.fits
+20260322/test_SN202cff_I_60_02.fits
+20260322/test_SN202cff_I_60_03.fits
+
+sent 534 bytes  received 293,933,244 bytes  11,091,840.68 bytes/sec
+total size is 31,821,853,060  speedup is 108.26
+Running: rsync -av archive_data@172.18.1.8::observation_data/DFOT/2026A/ /data/DFOT_DATA/2026A/rawdata/
+
+Sync completed successfully.
+receiving incremental file list
+./
+20260322/
+20260322/20260322_adfosc_log/
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_03_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_13_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_23_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_33_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_43_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_13_53_25.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_03_25.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_13_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_23_28.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_33_28.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_43_28.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_14_53_28.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_03_28.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_13_31.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_23_31.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_33_31.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_43_31.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_15_53_31.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_03_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_13_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_23_33.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_33_33.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_43_35.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_16_53_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_03_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_13_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_23_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_33_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_43_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_17_53_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_03_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_13_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_23_39.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_33_39.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_43_39.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_18_53_42.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_03_42.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_13_42.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_23_42.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_33_42.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_43_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_19_53_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_03_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_13_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_23_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_33_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_43_48.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_45_16.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_20_55_17.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_05_17.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_15_18.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_25_20.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_35_21.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_45_21.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_21_55_20.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_05_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_15_20.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_25_24.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_35_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_45_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_22_55_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_05_23.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_15_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_25_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_35_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_45_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_22_23_55_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_05_26.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_15_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_25_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_35_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_45_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_00_55_29.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_05_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_15_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_25_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_35_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_45_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_01_55_32.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_05_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_15_35.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_25_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_35_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_45_34.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_02_55_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_05_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_15_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_25_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_35_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_45_37.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_03_55_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_05_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_15_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_25_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_35_40.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_45_43.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_04_55_43.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_05_43.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_15_43.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_25_43.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_35_46.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_45_46.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_05_55_46.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_05_46.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_15_46.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_25_45.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_35_48.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_45_48.txt
+20260322/20260322_adfosc_log/adfosc_ics_log_2026_03_23_06_55_48.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_03_13.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_08_13.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_13_13.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_18_14.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_23_14.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_28_14.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_33_14.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_38_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_43_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_48_14.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_53_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_13_58_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_03_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_08_15.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_13_16.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_18_16.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_23_16.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_28_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_33_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_38_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_43_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_48_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_53_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_14_58_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_03_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_08_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_13_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_18_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_23_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_28_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_33_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_38_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_43_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_48_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_53_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_15_58_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_03_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_08_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_13_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_18_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_23_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_28_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_33_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_38_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_43_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_48_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_53_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_16_58_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_03_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_08_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_13_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_18_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_23_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_28_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_33_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_38_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_43_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_48_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_53_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_17_58_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_03_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_08_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_13_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_18_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_23_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_28_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_33_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_38_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_43_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_48_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_53_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_18_58_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_03_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_08_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_13_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_18_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_23_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_28_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_33_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_38_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_43_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_48_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_53_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_19_58_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_03_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_08_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_13_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_18_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_23_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_28_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_33_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_38_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_43_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_45_16.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_50_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_20_55_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_00_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_05_17.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_10_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_15_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_20_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_25_18.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_30_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_35_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_40_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_45_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_50_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_21_55_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_00_19.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_05_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_10_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_15_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_20_20.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_25_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_30_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_35_21.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_40_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_45_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_50_22.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_22_55_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_00_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_05_23.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_10_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_15_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_20_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_25_24.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_30_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_35_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_40_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_45_25.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_50_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_22_23_55_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_00_26.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_05_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_10_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_15_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_20_27.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_25_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_30_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_35_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_40_28.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_45_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_50_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_00_55_29.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_00_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_05_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_10_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_15_30.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_20_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_25_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_30_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_35_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_40_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_45_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_50_31.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_01_55_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_00_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_05_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_10_32.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_15_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_20_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_25_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_30_33.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_35_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_40_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_45_34.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_50_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_02_55_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_00_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_05_35.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_10_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_15_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_20_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_25_36.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_30_37.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_35_37.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_40_37.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_45_38.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_50_38.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_03_55_38.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_00_38.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_05_39.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_10_39.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_15_39.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_20_40.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_25_40.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_30_40.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_35_40.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_40_41.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_45_41.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_50_41.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_04_55_41.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_00_42.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_05_42.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_10_42.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_15_42.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_20_43.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_25_43.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_30_43.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_35_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_40_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_45_43.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_50_43.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_05_55_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_00_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_05_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_10_44.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_15_45.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_20_45.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_25_45.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_30_46.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_35_46.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_40_46.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_45_46.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_50_47.txt
+20260322/20260322_adfosc_log/adfosc_telnet_log_2026_03_23_06_55_47.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_20_45_16.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_20_55_16.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_05_17.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_15_17.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_25_18.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_35_18.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_45_19.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_21_55_19.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_05_20.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_15_20.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_25_21.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_35_22.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_45_22.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_22_55_23.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_05_23.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_15_24.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_25_24.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_35_25.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_45_25.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_22_23_55_26.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_05_26.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_15_27.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_25_27.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_35_28.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_45_28.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_00_55_29.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_01_05_29.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_01_15_30.txt
+20260322/20260322_adfosc_log/tcs_telnet_log_2026_03_23_01_25_30.txt
+20260322/DDT/
+20260322/DDT/Rup32_a1_DDT_1.5arcs676R_09.fit
+20260322/DDT/Rup32_a1_DDT_1.5arcs676R_22.fit
+20260322/DDT/Rup32_a1_bg_DDT_1.5arcs676R_23.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_00.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_01.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_02.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_03.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_04.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_05.fit
+20260322/DDT/test_Rup32_DDT_1.5arcs676R_06.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_07.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_08.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_10.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_11.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_12.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_13.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_14.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_15.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_16.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_17.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_18.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_19.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_20.fit
+20260322/DDT/test_Rup32_a1_DDT_1.5arcs676R_21.fit
+20260322/Lamp/
+20260322/Lamp/lamp1_HgAr_1arcs676R_05.fit
+20260322/Lamp/lamp1_HgAr_1arcs676R_06.fit
+20260322/Lamp/lamp1_HgAr_1arcs676R_07.fit
+20260322/Lamp/test_lamp1_HgAr_1arcs132R_00.fit
+20260322/Lamp/test_lamp1_HgAr_1arcs132R_01.fit
+20260322/Lamp/test_lamp1_HgAr_1arcs132R_02.fit
+20260322/Lamp/test_lamp1_HgAr_1arcs132R_03.fit
+20260322/Lamp/test_lamp1_HgAr_1arcs676R_04.fit
+20260322/Lamp/test_lamp2_Neon_1arcs676R_09.fit
+20260322/Lamp/test_lamp3_Cont1_1arcs676R_08.fit
+20260322/P45/
+20260322/P45/2001MG1_P45_120s_r_04.fit
+20260322/P45/2001MG1_P45_400s_r_05.fit
+20260322/P45/2001MG1_P45_400s_r_06.fit
+20260322/P45/2001MG1_P45_400s_r_07.fit
+20260322/P45/test_1990RW3_P45_120s_r_09.fit
+20260322/P45/test_1990RW3_P45_300s_r_10.fit
+20260322/P45/test_1990RW3_P45_300s_r_12.fit
+20260322/P45/test_1990RW3_P45_40s_r_08.fit
+20260322/P45/test_1990RW3_brtstr_P45_1s_r_11.fit
+20260322/P45/test_2001MG1_P45_r_00.fit
+20260322/P45/test_2001MG1_P45_r_01.fit
+20260322/P45/test_2001MG1_P45_r_02.fit
+20260322/P45/test_2001MG1_P45_r_03.fit
+20260322/test/
+20260322/test/test_00.fit
+20260322/test/test_01.fit
+20260322/test/test_02.fit
+20260322/test/test_03.fit
+
+sent 7,916 bytes  received 460,309,631 bytes  11,653,608.78 bytes/sec
+total size is 4,894,892,094  speedup is 10.63
+Running: rsync -av archive_data@172.18.1.8::observation_data/DOT/adfosc/2026-C1/ /data/DOT/ADFOSC/2026-C1/rawdata
+
+Sync completed successfully.
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1053 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (132.845,29.3611)
+  log-odds ratio 209.289 (7.81936e+90), 23 match, 0 conflict, 17 distractors, 27 index.
+  RA,Dec = (124.415,4.61434), pixel scale 0.541368 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++-+++++++++++--+++-+-+-------+----+(best)------------------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.fits
+Field center: (RA,Dec) = (124.414427, 4.614408) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.462, +04:36:51.867).
+Field size: 18.4767 x 18.4801 arcminutes
+Field rotation angle: up is -0.613178 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 736 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (148.245,29.3611)
+  log-odds ratio 178.502 (3.33078e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.4996), pixel scale 0.541316 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.fits
+Field center: (RA,Dec) = (132.358975, 29.499662) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.154, +29:29:58.782).
+Field size: 18.4787 x 18.4788 arcminutes
+Field rotation angle: up is -0.564306 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+archive_rw
+['20260214', '20260217', '20260220', '20260222', '20260322']
+[]
+Folder '20260214' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+0   S5_0716_714_B_01.fit     714
+6   S5_0716_714_R_02.fit     714
+11  S5_0716_714_I_01.fit     714
+23  S5_0716_714_V_02.fit     714
+32  S5_0716_714_V_01.fit     714
+35  S5_0716_714_B_02.fit     714
+38  S5_0716_714_I_02.fit     714
+40  S5_0716_714_R_01.fit     714
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260217' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+               Filename Filter1
+7   GM_AUR_H_ALPHA.fits       H
+8         GM_AUR_B.fits  B.fits
+9         GM_AUR_V.fits  V.fits
+12        GM_AUR_I.fits  I.fits
+13        GM_AUR_R.fits  R.fits
+19        HK_ORI_I.fits  I.fits
+20        HK_ORI_R.fits  R.fits
+21  HK_ORI_H_ALPHA.fits       H
+22        HK_ORI_B.fits  B.fits
+23        HK_ORI_U.fits  U.fits
+24        HK_ORI_V.fits  V.fits
+31        RY_TAU_B.fits  B.fits
+32        RY_TAU_R.fits  R.fits
+33        RY_TAU_I.fits  I.fits
+34        RY_TAU_U.fits  U.fits
+35        RY_TAU_V.fits  V.fits
+36  RY_TAU_H_ALPHA.fits       H
+37        BP_TAU_V.fits  V.fits
+38        BP_TAU_R.fits  R.fits
+39        BP_TAU_B.fits  B.fits
+40  BP_TAU_H_ALPHA.fits       H
+41        BP_TAU_I.fits  I.fits
+42        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260220' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+83   GM_AUR_H_ALPHA.fits       H
+84         GM_AUR_B.fits  B.fits
+85         GM_AUR_V.fits  V.fits
+86         GM_AUR_U.fits  U.fits
+87         GM_AUR_I.fits  I.fits
+88         GM_AUR_R.fits  R.fits
+94         HK_ORI_I.fits  I.fits
+95         HK_ORI_R.fits  R.fits
+96   HK_ORI_H_ALPHA.fits       H
+97         HK_ORI_B.fits  B.fits
+98         HK_ORI_U.fits  U.fits
+99         HK_ORI_V.fits  V.fits
+100        RY_TAU_B.fits  B.fits
+101        RY_TAU_R.fits  R.fits
+102        RY_TAU_I.fits  I.fits
+103        RY_TAU_U.fits  U.fits
+104        RY_TAU_V.fits  V.fits
+105  RY_TAU_H_ALPHA.fits       H
+106        BP_TAU_V.fits  V.fits
+107        BP_TAU_R.fits  R.fits
+108        BP_TAU_B.fits  B.fits
+109  BP_TAU_H_ALPHA.fits       H
+110        BP_TAU_I.fits  I.fits
+111        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260222' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                   Filename Filter1
+45    GM_AUR_H_ALPHA_1.fits       H
+50    GM_AUR_H_ALPHA_4.fits       H
+56   GM_AUR_H_ALPHA_13.fits       H
+59   GM_AUR_H_ALPHA_24.fits       H
+70   GM_AUR_H_ALPHA_17.fits       H
+73   GM_AUR_H_ALPHA_22.fits       H
+75   GM_AUR_H_ALPHA_12.fits       H
+77    GM_AUR_H_ALPHA_2.fits       H
+81    GM_AUR_H_ALPHA_5.fits       H
+82   GM_AUR_H_ALPHA_21.fits       H
+86   GM_AUR_H_ALPHA_11.fits       H
+90   GM_AUR_H_ALPHA_15.fits       H
+91    GM_AUR_H_ALPHA_8.fits       H
+97    GM_AUR_H_ALPHA_3.fits       H
+106  GM_AUR_H_ALPHA_23.fits       H
+107   GM_AUR_H_ALPHA_9.fits       H
+116  GM_AUR_H_ALPHA_18.fits       H
+143  GM_AUR_H_ALPHA_14.fits       H
+148  GM_AUR_H_ALPHA_19.fits       H
+150  GM_AUR_H_ALPHA_10.fits       H
+151   GM_AUR_H_ALPHA_7.fits       H
+155  GM_AUR_H_ALPHA_16.fits       H
+158  GM_AUR_H_ALPHA_25.fits       H
+159  GM_AUR_H_ALPHA_20.fits       H
+166   GM_AUR_H_ALPHA_6.fits       H
+172           HK_ORI_I.fits  I.fits
+173           HK_ORI_R.fits  R.fits
+174     HK_ORI_H_ALPHA.fits       H
+175           HK_ORI_B.fits  B.fits
+176           HK_ORI_U.fits  U.fits
+177           HK_ORI_V.fits  V.fits
+267           RY_TAU_B.fits  B.fits
+268           RY_TAU_R.fits  R.fits
+269           RY_TAU_I.fits  I.fits
+270           RY_TAU_U.fits  U.fits
+271           RY_TAU_V.fits  V.fits
+272     RY_TAU_H_ALPHA.fits       H
+273           BP_TAU_V.fits  V.fits
+274           BP_TAU_R.fits  R.fits
+275           BP_TAU_B.fits  B.fits
+276     BP_TAU_H_ALPHA.fits       H
+277           BP_TAU_I.fits  I.fits
+278           BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260322' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+Okey, added to list
+Empty DataFrame
+Columns: []
+Index: [20260322]
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+3
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+3
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+3
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+3
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+3
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+1
+2
+
+
+
+
+
+
+Doing astrometry...
+
+132.84495833333332 2026-03-22T15:32:02.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_V_300s_01_02_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_V_300s_01_02_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.fits 124.41450362364507 4.614331499464707 V 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+148.24533333333335 2026-03-22T16:33:28.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_B_250_01_03_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_B_250_01_03_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.fits 132.35906136380694 29.499587879324395 B 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+139.62595833333333 Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 898 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (139.626,29.3611)
+  log-odds ratio 177.558 (1.296e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.357,29.5012), pixel scale 0.541306 arcsec/pix.
+  Hit/miss:   Hit/miss: -++++++++++--++--++++++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.fits
+Field center: (RA,Dec) = (132.357380, 29.501308) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:25.771, +29:30:04.709).
+Field size: 18.4767 x 18.477 arcminutes
+Field rotation angle: up is -0.563268 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 941 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (156.915,29.3611)
+  log-odds ratio 219.321 (1.77871e+95), 25 match, 0 conflict, 32 distractors, 29 index.
+  RA,Dec = (170.871,-8.65535), pixel scale 0.541429 arcsec/pix.
+  Hit/miss:   Hit/miss: +-++++++-++++++-+--+++-++---+---+-----+-+---+-----------+(best)-------------------------------------------
+Field 1: solved with index index-5205-24.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.fits
+Field center: (RA,Dec) = (170.871040, -8.655277) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (11:23:29.050, -08:39:18.996).
+Field size: 18.4808 x 18.4803 arcminutes
+Field rotation angle: up is -0.539314 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 863 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (158.627,29.3611)
+  log-odds ratio 219.734 (2.68643e+95), 25 match, 0 conflict, 32 distractors, 29 index.
+  RA,Dec = (170.871,-8.65545), pixel scale 0.541445 arcsec/pix.
+  Hit/miss:   Hit/miss: +-++++++-++++++-+--++++++---+---+-------+---+-----------+(best)-------------------------------------------
+Field 1: solved with index index-5205-24.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.fits
+Field center: (RA,Dec) = (170.871292, -8.655383) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (11:23:29.110, -08:39:19.380).
+Field size: 18.4809 x 18.4808 arcminutes
+Field rotation angle: up is -0.537977 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 770 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (149.519,29.3611)
+  log-odds ratio 178.469 (3.2219e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.4993), pixel scale 0.541353 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.fits
+Field center: (RA,Dec) = (132.359110, 29.499408) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.186, +29:29:57.867).
+Field size: 18.4793 x 18.4795 arcminutes
+Field rotation angle: up is -0.567381 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 902 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (157.771,29.3611)
+  log-odds ratio 219.587 (2.3192e+95), 25 match, 0 conflict, 32 distractors, 29 index.
+  RA,Dec = (170.871,-8.65541), pixel scale 0.541403 arcsec/pix.
+  Hit/miss:   Hit/miss: +-++++++-++++++-+--++++++---+---+-------+---+-----------+(best)-------------------------------------------
+Field 1: solved with index index-5205-24.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.fits
+Field center: (RA,Dec) = (170.871143, -8.655333) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (11:23:29.074, -08:39:19.200).
+Field size: 18.4805 x 18.4807 arcminutes
+Field rotation angle: up is -0.538173 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1369 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (131.407,29.3611)
+  log-odds ratio 208.863 (5.10698e+90), 23 match, 0 conflict, 17 distractors, 27 index.
+  RA,Dec = (124.414,4.61495), pixel scale 0.541279 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++-+++++++++++--+++-+-+-------+----+(best)------------------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.fits
+Field center: (RA,Dec) = (124.414277, 4.615016) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.427, +04:36:54.059).
+Field size: 18.4759 x 18.478 arcminutes
+Field rotation angle: up is -0.613664 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 756 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (145.742,29.3611)
+  log-odds ratio 177.839 (1.7159e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.5001), pixel scale 0.541437 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.fits
+Field center: (RA,Dec) = (132.358722, 29.500168) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.093, +29:30:00.603).
+Field size: 18.4793 x 18.4788 arcminutes
+Field rotation angle: up is -0.565423 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 708 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (150.793,29.3611)
+  log-odds ratio 177.48 (1.19789e+77), 19 match, 0 conflict, 25 distractors, 23 index.
+  RA,Dec = (132.359,29.4992), pixel scale 0.541343 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-+++--+----++---------------+(best)--------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.fits
+Field center: (RA,Dec) = (132.359423, 29.499222) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.262, +29:29:57.199).
+Field size: 18.4793 x 18.4791 arcminutes
+Field rotation angle: up is -0.567102 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1313 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (130.342,29.3611)
+  log-odds ratio 215.571 (4.17993e+93), 24 match, 0 conflict, 28 distractors, 28 index.
+  RA,Dec = (124.414,4.61545), pixel scale 0.541236 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++-+++++++++++--+++-+-+-------+----+-----------+(best)------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.fits
+Field center: (RA,Dec) = (124.414245, 4.615520) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.419, +04:36:55.871).
+Field size: 18.4769 x 18.4784 arcminutes
+Field rotation angle: up is -0.612946 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 959 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (137.114,29.3611)
+  log-odds ratio 208.449 (3.37648e+90), 23 match, 0 conflict, 17 distractors, 27 index.
+  RA,Dec = (124.415,4.61264), pixel scale 0.541304 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++++++-++++-++---++++-+-----+-----++(best)------------------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.fits
+Field center: (RA,Dec) = (124.414936, 4.612711) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.585, +04:36:45.761).
+Field size: 18.478 x 18.4805 arcminutes
+Field rotation angle: up is -0.612607 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 815 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (155.882,29.3611)
+  log-odds ratio 218.046 (4.96961e+94), 25 match, 0 conflict, 36 distractors, 29 index.
+  RA,Dec = (170.871,-8.65523), pixel scale 0.541431 arcsec/pix.
+  Hit/miss:   Hit/miss: +-++++++--+++++-+--+++-++---+---++----+-+---+---------------+(best)---------------------------------------
+Field 1: solved with index index-5205-24.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.fits
+Field center: (RA,Dec) = (170.870558, -8.655160) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (11:23:28.934, -08:39:18.576).
+Field size: 18.4802 x 18.4809 arcminutes
+Field rotation angle: up is -0.538906 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 784 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (146.807,29.3611)
+  log-odds ratio 178.483 (3.26586e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.4999), pixel scale 0.541406 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.fits
+Field center: (RA,Dec) = (132.358872, 29.499940) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.129, +29:29:59.784).
+Field size: 18.479 x 18.479 arcminutes
+Field rotation angle: up is -0.564204 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1252 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (129.239,29.3611)
+  log-odds ratio 215.927 (5.96914e+93), 24 match, 0 conflict, 28 distractors, 28 index.
+  RA,Dec = (124.414,4.6162), pixel scale 0.541297 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++-+++++++++++--+-+-+++-------+--------+-------+(best)------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.fits
+Field center: (RA,Dec) = (124.414024, 4.616272) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.366, +04:36:58.580).
+Field size: 18.4754 x 18.4776 arcminutes
+Field rotation angle: up is -0.614095 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 938 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (142.638,29.3611)
+  log-odds ratio 178.301 (2.72257e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.358,29.5008), pixel scale 0.541298 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.fits
+Field center: (RA,Dec) = (132.358347, 29.500892) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.003, +29:30:03.211).
+Field size: 18.477 x 18.4764 arcminutes
+Field rotation angle: up is -0.5639 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 929 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (143.494,29.3611)
+  log-odds ratio 177.247 (9.49505e+76), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.5006), pixel scale 0.54133 arcsec/pix.
+  Hit/miss:   Hit/miss: -++++++++++--++--++++++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.fits
+Field center: (RA,Dec) = (132.358603, 29.500693) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.065, +29:30:02.493).
+Field size: 18.4774 x 18.4763 arcminutes
+Field rotation angle: up is -0.56289 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.new"...
+
+2026-03-22T15:59:05.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_I_150_01_03_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_I_150_01_03_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.fits 132.35746683360273 29.501234626631057 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+156.91483333333332 2026-03-22T17:08:03.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN202cff_R_200__01_03_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN202cff_R_200__01_03_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.fits 170.87111583070643 -8.655350251847729 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+158.627 2026-03-22T17:14:52.802 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN202cff_R_200__01_03_3.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN202cff_R_200__01_03_3.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.fits 170.87136790917282 -8.65545731005753 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_3.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+149.51920833333332 2026-03-22T16:38:32.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_B_250_01_03_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_B_250_01_03_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.fits 132.35919628780542 29.499333791250383 B 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+157.7709166666667 2026-03-22T17:11:27.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN202cff_R_200__01_03_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN202cff_R_200__01_03_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.fits 170.87121944500146 -8.655407051511643 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_R_200__01_03_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+131.40725 2026-03-22T15:26:17.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_R_250s_01_02_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_R_250s_01_02_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.fits 124.4143524314214 4.614940101785783 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+145.74224999999998 2026-03-22T16:23:28.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_V_250_01_03_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_V_250_01_03_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.fits 132.35880885429262 29.500093817281183 V 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+150.793125 2026-03-22T16:43:37.802 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_B_250_01_03_3.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_B_250_01_03_3.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.fits 132.35950965278718 29.49914816825979 B 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_B_250_01_03_3.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+130.34229166666668 2026-03-22T15:22:03.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_R_250s_01_02_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_R_250s_01_02_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.fits 124.41432202516988 4.615443799485168 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_R_250s_01_02_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+137.1145 2026-03-22T15:49:03.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_B_350s_01_02_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_B_350s_01_02_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.fits 124.41501344575863 4.612635892698645 B 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+155.88241666666667 2026-03-22T17:03:55.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN202cff_I_150__01_02_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN202cff_I_150__01_02_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.fits 170.87063454086663 -8.655233486012701 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+146.80725 2026-03-22T16:27:43.802 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_V_250_01_03_3.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_V_250_01_03_3.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.fits 132.35895895352948 29.499866151750563 V 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_3.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+129.23883333333333 2026-03-22T15:17:38.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_I_200_01_02_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_I_200_01_02_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.fits 124.41410079660876 4.616195217253705 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_2.fits 
+
+....................................
+
+astrometry done
+Bias_05.fits
+Bias_01.fits
+
+
+
+
+
+
+Doing astrometry...
+
+142.63791666666665 2026-03-22T16:11:05.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_R_200_01_03_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_R_200_01_03_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.fits 132.35843387950828 29.50081837299184 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+143.49404166666667 2026-03-22T16:14:30.802 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_R_200_01_03_3.fits
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 696 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (155.235,29.3611)
+  log-odds ratio 218.148 (5.49918e+94), 25 match, 0 conflict, 36 distractors, 29 index.
+  RA,Dec = (170.87,-8.65519), pixel scale 0.541451 arcsec/pix.
+  Hit/miss:   Hit/miss: +-++++++--+++++-+--+++-++---+---++----+-+---+---------------+(best)---------------------------------------
+Field 1: solved with index index-5205-24.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.fits
+Field center: (RA,Dec) = (170.870317, -8.655121) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (11:23:28.876, -08:39:18.437).
+Field size: 18.4801 x 18.4817 arcminutes
+Field rotation angle: up is -0.5388 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 894 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (140.92,29.3611)
+  log-odds ratio 177.51 (1.23445e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.358,29.5012), pixel scale 0.541292 arcsec/pix.
+  Hit/miss:   Hit/miss: -++++++++++--++--++++++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.fits
+Field center: (RA,Dec) = (132.357736, 29.501280) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:25.857, +29:30:04.609).
+Field size: 18.4764 x 18.4759 arcminutes
+Field rotation angle: up is -0.563587 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 900 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (135.632,29.3611)
+  log-odds ratio 207.908 (1.96411e+90), 23 match, 0 conflict, 17 distractors, 27 index.
+  RA,Dec = (124.415,4.61313), pixel scale 0.541374 arcsec/pix.
+  Hit/miss:   Hit/miss: ++--+++++++++++-++---++++-+-----+-----++(best)------------------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.fits
+Field center: (RA,Dec) = (124.414830, 4.613204) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.559, +04:36:47.533).
+Field size: 18.4778 x 18.481 arcminutes
+Field rotation angle: up is -0.612176 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 936 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (140.273,29.3611)
+  log-odds ratio 177.639 (1.40418e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.358,29.5012), pixel scale 0.541303 arcsec/pix.
+  Hit/miss:   Hit/miss: -++++++++++--++--++++++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.fits
+Field center: (RA,Dec) = (132.357521, 29.501296) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:25.805, +29:30:04.667).
+Field size: 18.4768 x 18.4765 arcminutes
+Field rotation angle: up is -0.560606 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+/home/archive/Documents/ARIES-archive/scripts/data_processing/DFOT.py:988: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+  fig, ax = plt.subplots(figsize=(8, 8), subplot_kw={'projection': wcs})
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 766 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (144.677,29.3611)
+  log-odds ratio 178.279 (2.66409e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.359,29.5003), pixel scale 0.541401 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++-++--++-++++-++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.fits
+Field center: (RA,Dec) = (132.358653, 29.500361) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:26.077, +29:30:01.300).
+Field size: 18.4791 x 18.4787 arcminutes
+Field rotation angle: up is -0.562858 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1035 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (134.119,29.3611)
+  log-odds ratio 209.14 (6.73382e+90), 23 match, 0 conflict, 17 distractors, 27 index.
+  RA,Dec = (124.415,4.61384), pixel scale 0.541383 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-++-+++++++++++--+++-+-+-------+----+(best)------------------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.fits
+Field center: (RA,Dec) = (124.414744, 4.613908) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.538, +04:36:50.068).
+Field size: 18.4773 x 18.4801 arcminutes
+Field rotation angle: up is -0.612067 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 943 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (141.782,29.3611)
+  log-odds ratio 177.598 (1.34911e+77), 19 match, 0 conflict, 13 distractors, 23 index.
+  RA,Dec = (132.358,29.501), pixel scale 0.541337 arcsec/pix.
+  Hit/miss:   Hit/miss: -++++++++++--++--++++++--------+(best)--------------------------------------------------------------------
+Field 1: solved with index index-5205-04.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.fits
+Field center: (RA,Dec) = (132.358097, 29.501041) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:49:25.943, +29:30:03.747).
+Field size: 18.4775 x 18.4767 arcminutes
+Field rotation angle: up is -0.563862 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+Reading input file 1 of 1: "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.fits"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1266 sources.
+Solving...
+Reading file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.axy"...
+Only searching for solutions within 100 degrees of RA,Dec (128.383,29.3611)
+  log-odds ratio 215.133 (2.69947e+93), 24 match, 0 conflict, 28 distractors, 28 index.
+  RA,Dec = (124.414,4.61665), pixel scale 0.541293 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++--+++++---+++++++-+-+--+----+--------+-------+(best)------------------------------------------------
+Field 1: solved with index index-5205-22.fits.
+Field 1 solved: writing to file /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.solved to indicate this.
+Field: /data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.fits
+Field center: (RA,Dec) = (124.413798, 4.616728) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:17:39.312, +04:37:00.220).
+Field size: 18.4756 x 18.4775 arcminutes
+Field rotation angle: up is -0.613735 degrees E of N
+Field parity: pos
+Creating new FITS file "/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.new"...
+
+WARNING: FITSFixedWarning: EQUINOX = 'NULL ' 
+a floating-point value was expected. [astropy.wcs.wcs]
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_R_200_01_03_3.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.fits 132.35869012198347 29.500619129035424 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_3.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+155.23525 2026-03-22T17:01:21.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN202cff_I_150__01_02_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN202cff_I_150__01_02_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.fits 170.87039297490688 -8.655195222833488 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN202cff_I_150__01_02_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+140.92033333333333 2026-03-22T16:04:14.802 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_I_150_01_03_3.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_I_150_01_03_3.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.fits 132.3578229952493 29.501206790931473 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_3.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+135.6317083333333 2026-03-22T15:43:09.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_B_350s_01_02_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_B_350s_01_02_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.fits 124.4149052458305 4.613127756738307 B 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_B_350s_01_02_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+140.273125 2026-03-22T16:01:39.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_I_150_01_03_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_I_150_01_03_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.fits 132.3576081827544 29.50122298725014 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_I_150_01_03_2.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+144.67725 2026-03-22T16:19:14.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_V_250_01_03_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_V_250_01_03_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.fits 132.35873956102319 29.500287389695313 V 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_V_250_01_03_1.fits 
+
+....................................
+
+astrometry done
+Bias_03.fits
+
+
+
+
+
+
+Doing astrometry...
+
+134.11883333333333 2026-03-22T15:37:06.901 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_V_300s_01_02_2.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_V_300s_01_02_2.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.fits 124.41481965236191 4.6138318231584385 V 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_V_300s_01_02_2.fits 
+
+....................................
+
+astrometry done
+Bias_02.fits
+Bias_04.fits
+
+
+
+
+
+
+Doing astrometry...
+
+141.78183333333334 2026-03-22T16:07:41.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2026dgt_R_200_01_03_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2026dgt_R_200_01_03_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.fits 132.35818361301975 29.50096754346649 R 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2026dgt_R_200_01_03_1.fits 
+
+....................................
+
+astrometry done
+
+
+
+
+
+
+Doing astrometry...
+
+128.38275000000002 2026-03-22T15:14:14.000 LST_deg & date_obs
+
+Astrometry Ran Sucessfully For : SN2025advo_I_200_01_02_1.fits
+
+<----- .  Astrometry header updated  ----->
+
+<----- .  Airmass calculation updated  ----->
+
+updated astrometry header of :SN2025advo_I_200_01_02_1.fits
+
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.fits 124.41387558232627 4.616651613026091 I 	 astrometry successful
+/data/DFOT_DATA/2026A/Processed_data/20260322/SN2025advo_I_200_01_02_1.fits 
+
+....................................
+
+astrometry done
+
+ final data log added
+List of 'Final_folder' directories:
+/data/DFOT_DATA/2026A/Processed_data/20260322/Final_data--------------> copied to db
+could not convert string to float: 'NULL'
+could not convert string to float: 'NULL'
+could not convert string to float: 'NULL'
+could not convert string to float: 'NULL'
+could not convert string to float: 'NULL'
+Total number of fits files present in the directory = 30
+Total No of files processed = 30
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 810 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (131.596,19.2218)
+  log-odds ratio 428.459 (1.19552e+186), 169 match, 3 conflict, 333 distractors, 213 index.
+  RA,Dec = (131.581,19.2544), pixel scale 0.406348 arcsec/pix.
+  Hit/miss:   Hit/miss: c+++++--++-+++++++++-+++-+c++++++++-+++++-+++-+++--+++--+++--+++++-+++++++---+++-+++--+-+++-+++-++-+
+Field 1: solved with index index-5201-04.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.fit
+Field center: (RA,Dec) = (131.581847, 19.254094) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:46:19.643, +19:15:14.738).
+Field size: 13.7888 x 13.7892 arcminutes
+Field rotation angle: up is 90.2692 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 843 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (131.596,19.2218)
+  log-odds ratio 103.261 (7.00933e+44), 25 match, 0 conflict, 37 distractors, 37 index.
+  RA,Dec = (131.581,19.2559), pixel scale 0.400859 arcsec/pix.
+  Hit/miss:   Hit/miss: +-+--+++++-++--+++--+--++--+++-----+++-+-------+-+-----------+(best)-----------------------+--------------
+Field 1: solved with index index-5004-04.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.fit
+Field center: (RA,Dec) = (131.581087, 19.256666) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:46:19.461, +19:15:23.999).
+Field size: 13.7241 x 13.748 arcminutes
+Field rotation angle: up is 90.172 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 804 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (131.596,19.2218)
+  log-odds ratio 105.503 (6.59479e+45), 26 match, 0 conflict, 40 distractors, 37 index.
+  RA,Dec = (131.581,19.2551), pixel scale 0.4008 arcsec/pix.
+  Hit/miss:   Hit/miss: +-+---++++-+++-+++--+--++--+++-+---++----+-----+-+--+------------+(best)----------------------------------
+Field 1: solved with index index-5004-04.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.fit
+Field center: (RA,Dec) = (131.581310, 19.255863) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:46:19.514, +19:15:21.105).
+Field size: 13.725 x 13.7484 arcminutes
+Field rotation angle: up is 90.1733 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 854 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (131.596,19.2218)
+  log-odds ratio 97.7609 (2.8642e+42), 26 match, 0 conflict, 50 distractors, 37 index.
+  RA,Dec = (131.582,19.2541), pixel scale 0.400768 arcsec/pix.
+  Hit/miss:   Hit/miss: +-+-+-+-++-+-+-++---+--+++-++------+-+-+-------+-+-++----+---+-------------+(best)------------------------
+Field 1: solved with index index-5004-04.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.fit
+Field center: (RA,Dec) = (131.581746, 19.254696) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (08:46:19.619, +19:15:16.907).
+Field size: 13.6974 x 13.7254 arcminutes
+Field rotation angle: up is 90.2541 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.new"...
+
+2026-C1
+['20260322', '20260321', '20260320', '20260313', '20260206']
+Start : 20260322
+go ahed log is there
+20260322/Lamp/lamp1_HgAr_1arcs676R_07.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/Lamp/lamp1_HgAr_1arcs676R_07.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260322/Lamp/lamp1_HgAr_1arcs676R_05.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/Lamp/lamp1_HgAr_1arcs676R_05.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260322/Lamp/lamp1_HgAr_1arcs676R_06.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/Lamp/lamp1_HgAr_1arcs676R_06.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260322/DDT/Rup32_a1_bg_DDT_1.5arcs676R_23.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/DDT/Rup32_a1_bg_DDT_1.5arcs676R_23.fit
+TYPE CODE :  S
+20260322/DDT/Rup32_a1_DDT_1.5arcs676R_09.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/DDT/Rup32_a1_DDT_1.5arcs676R_09.fit
+TYPE CODE :  S
+20260322/DDT/Rup32_a1_DDT_1.5arcs676R_22.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260322/DDT/Rup32_a1_DDT_1.5arcs676R_22.fit
+TYPE CODE :  S
+20260322/P45/2001MG1_P45_120s_r_04.fit
+🚀 Updating : 20260322/P45/2001MG1_P45_120s_r_04.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/P45/imaging/2001MG1_P45_120s_r_04.fit
+RA  :  131.5965
+DEC :  19.22183333
+
+Astrometry Ran Sucessfully For : 2001MG1_P45_120s_r_04.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_120s_r_04.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:28:48.290-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:28:48.290-DOT-ADFOSC.fits
+20260322/P45/2001MG1_P45_400s_r_07.fit
+🚀 Updating : 20260322/P45/2001MG1_P45_400s_r_07.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/P45/imaging/2001MG1_P45_400s_r_07.fit
+RA  :  131.5965
+DEC :  19.22183333
+
+Astrometry Ran Sucessfully For : 2001MG1_P45_400s_r_07.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_07.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:46:36.438-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:46:36.438-DOT-ADFOSC.fits
+20260322/P45/2001MG1_P45_400s_r_06.fit
+🚀 Updating : 20260322/P45/2001MG1_P45_400s_r_06.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/P45/imaging/2001MG1_P45_400s_r_06.fit
+RA  :  131.5965
+DEC :  19.22183333
+
+Astrometry Ran Sucessfully For : 2001MG1_P45_400s_r_06.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_06.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:39:14.955-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:39:14.955-DOT-ADFOSC.fits
+20260322/P45/2001MG1_P45_400s_r_05.fit
+🚀 Updating : 20260322/P45/2001MG1_P45_400s_r_05.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/P45/imaging/2001MG1_P45_400s_r_05.fit
+RA  :  131.5965
+DEC :  19.22183333
+
+Astrometry Ran Sucessfully For : 2001MG1_P45_400s_r_05.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260322/imaging/2001MG1_P45_400s_r_05.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:31:31.396-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322/S-2026APP45-2026-03-22T22:31:31.396-DOT-ADFOSC.fits
+['S-2026APP45-2026-03-22T22:28:48.290-DOT-ADFOSC.fits', 'S-2026APP45-2026-03-22T22:46:36.438-DOT-ADFOSC.fits', 'S-2026APP-2026-03-22T21:38:05.195-DOT-ADFOSC.fits', 'S-2026APP45-2026-03-22T22:31:31.396-DOT-ADFOSC.fits', 'S-2026APP-2026-03-22T21:54:20.912-DOT-ADFOSC.fits', 'S-2026APP45-2026-03-22T22:39:14.955-DOT-ADFOSC.fits', 'S-2026APP-2026-03-22T21:05:53.403-DOT-ADFOSC.fits']
+/data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260322--------------> copied to db
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/P45/S-2026APP45-2026-03-22T22:28:48.290-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/P45/S-2026APP45-2026-03-22T22:46:36.438-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/DDT/S-2026APP-2026-03-22T21:38:05.195-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/P45/S-2026APP45-2026-03-22T22:31:31.396-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/DDT/S-2026APP-2026-03-22T21:54:20.912-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/P45/S-2026APP45-2026-03-22T22:39:14.955-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260322/DDT/S-2026APP-2026-03-22T21:05:53.403-DOT-ADFOSC.fits
+Folder copied successfully.
+Start : 20260321
+No log
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+Skipping file : 'TYPE' keyword not found in header.
+Start : 20260320
+No log
+Start : 20260313
+go ahed log is there
+Start : 20260206
+go ahed log is there
+['kuntal@aries.res.in', 'thisisamalmp@gmail.com', 'sanjit@aries.res.in', 'neelam@aries.res.in', 'govind@aries.res.in', 'suvendu@aries.res.in', 'ashishdevaraj@aries.res.in', 'geetarangwal@aries.res.in']
+Email sent successfully!
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/dfot.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/adfosc.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/DFOT.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/ADFOSC.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/JSON_UPDATE.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py 
+Both scripts finished successfully.

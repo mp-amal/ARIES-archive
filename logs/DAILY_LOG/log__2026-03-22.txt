@@ -1,0 +1,664 @@
+receiving incremental file list
+20260215/GM_AUR/
+20260215/GM_AUR/GM_AUR_H_ALPHA.fits
+20260215/GM_AUR/GM_AUR_H_ALPHA_1.fits
+20260215/HD285957/
+20260215/HD285957/HD285957_H_ALPHA.fits
+20260215/HK_ORI/
+20260215/HK_ORI/HK_ORI_B.fits
+20260215/HK_ORI/HK_ORI_H_ALPHA.fits
+20260215/HK_ORI/HK_ORI_I.fits
+20260215/HK_ORI/HK_ORI_R.fits
+20260215/HK_ORI/HK_ORI_U.fits
+20260215/HK_ORI/HK_ORI_V.fits
+20260215/RY_TAU/
+20260215/RY_TAU/RY_TAU_H_ALPHA_10.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_11.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_12.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_13.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_14.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_15.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_16.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_17.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_18.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_19.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_2.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_20.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_21.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_22.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_23.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_24.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_25.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_26.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_27.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_28.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_29.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_3.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_30.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_31.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_32.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_33.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_34.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_35.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_36.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_37.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_38.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_4.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_5.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_6.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_7.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_8.fits
+20260215/RY_TAU/RY_TAU_H_ALPHA_9.fits
+20260215/V505_ORI/
+20260215/V505_ORI/V505_ORI_H_ALPHA.fits
+20260215/bp_tau/
+20260215/bp_tau/BP_TAU_H_ALPHA_1.fits
+
+sent 1,073 bytes  received 403,265,067 bytes  11,359,609.58 bytes/sec
+total size is 31,528,049,860  speedup is 78.18
+Running: rsync -av archive_data@172.18.1.8::observation_data/DFOT/2026A/ /data/DFOT_DATA/2026A/rawdata/
+
+Sync completed successfully.
+receiving incremental file list
+./
+20260321/
+20260321/20260321_adfosc_log/
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_02_12.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_12_12.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_22_12.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_32_12.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_42_12.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_13_52_15.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_02_15.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_12_15.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_22_15.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_32_14.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_42_16.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_14_52_16.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_02_16.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_12_17.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_22_17.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_32_17.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_42_19.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_15_52_19.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_02_19.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_12_19.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_22_22.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_32_22.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_42_22.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_16_52_22.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_02_22.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_12_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_22_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_32_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_42_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_17_52_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_02_25.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_12_28.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_22_28.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_32_28.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_42_27.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_18_52_27.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_02_30.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_12_30.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_22_30.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_32_30.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_42_30.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_19_52_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_02_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_12_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_22_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_32_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_42_33.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_20_52_36.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_02_36.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_12_36.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_22_36.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_32_36.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_42_39.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_21_52_39.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_02_39.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_12_39.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_22_38.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_32_38.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_42_41.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_22_52_41.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_02_41.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_12_41.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_22_41.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_32_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_42_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_21_23_52_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_02_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_12_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_22_44.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_32_47.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_42_47.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_00_52_47.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_02_47.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_12_47.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_22_50.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_32_50.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_42_50.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_01_52_50.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_02_50.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_12_49.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_22_53.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_32_52.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_42_52.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_02_52_52.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_02_52.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_12_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_22_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_32_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_42_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_03_52_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_02_55.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_12_58.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_22_58.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_32_58.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_42_58.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_04_52_58.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_03_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_13_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_23_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_33_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_43_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_05_53_01.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_03_04.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_13_03.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_23_03.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_33_03.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_43_03.txt
+20260321/20260321_adfosc_log/adfosc_ics_log_2026_03_22_06_53_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_02_00.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_07_01.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_12_01.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_17_01.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_22_01.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_27_02.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_32_02.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_37_02.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_42_02.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_47_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_52_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_13_57_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_02_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_07_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_12_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_17_03.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_22_04.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_27_04.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_32_04.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_37_04.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_42_05.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_47_05.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_52_05.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_14_57_05.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_02_06.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_07_06.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_12_06.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_17_07.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_22_07.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_27_07.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_32_07.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_37_08.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_42_08.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_47_08.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_52_08.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_15_57_09.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_02_09.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_07_09.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_12_10.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_17_10.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_22_10.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_27_10.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_32_11.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_37_11.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_42_11.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_47_11.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_52_12.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_16_57_12.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_02_12.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_07_13.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_12_13.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_17_13.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_22_13.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_27_14.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_32_14.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_37_14.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_42_14.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_47_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_52_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_17_57_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_02_16.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_07_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_12_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_17_15.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_22_16.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_27_16.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_32_16.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_37_17.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_42_17.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_47_17.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_52_17.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_18_57_18.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_02_18.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_07_18.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_12_18.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_17_19.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_22_19.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_27_19.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_32_19.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_37_20.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_42_20.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_47_20.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_52_21.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_19_57_21.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_02_21.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_07_21.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_12_22.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_17_22.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_22_22.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_27_23.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_32_23.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_37_23.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_42_23.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_47_24.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_52_24.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_20_57_24.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_02_24.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_07_25.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_12_25.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_17_25.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_22_26.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_27_26.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_32_26.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_37_26.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_42_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_47_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_52_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_21_57_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_02_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_07_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_12_27.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_17_28.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_22_28.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_27_28.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_32_28.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_37_29.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_42_29.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_47_29.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_52_29.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_22_57_30.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_02_30.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_07_30.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_12_31.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_17_31.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_22_31.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_27_31.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_32_32.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_37_32.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_42_32.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_47_32.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_52_33.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_21_23_57_33.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_02_33.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_07_34.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_12_34.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_17_34.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_22_34.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_27_35.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_32_35.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_37_35.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_42_35.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_47_36.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_52_36.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_00_57_36.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_02_37.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_07_37.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_12_37.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_17_37.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_22_38.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_27_38.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_32_38.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_37_38.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_42_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_47_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_52_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_01_57_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_02_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_07_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_12_39.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_17_40.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_22_40.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_27_40.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_32_40.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_37_41.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_42_41.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_47_41.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_52_42.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_02_57_42.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_02_42.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_07_42.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_12_43.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_17_43.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_22_43.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_27_43.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_32_44.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_37_44.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_42_44.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_47_45.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_52_45.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_03_57_45.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_02_45.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_07_46.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_12_46.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_17_46.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_22_46.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_27_47.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_32_47.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_37_47.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_42_48.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_47_48.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_52_48.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_04_57_48.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_02_49.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_07_49.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_12_49.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_17_49.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_22_50.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_27_50.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_32_50.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_37_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_42_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_47_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_52_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_05_57_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_02_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_07_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_12_51.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_17_52.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_22_52.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_27_52.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_32_53.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_37_53.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_42_53.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_47_53.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_52_54.txt
+20260321/20260321_adfosc_log/adfosc_telnet_log_2026_03_22_06_57_54.txt
+20260321/lamp/
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+20260321/test/
+20260321/test/Lamp1HgAr__003.fit
+20260321/test/test_000.fit
+20260321/test/test_001.fit
+20260321/test/test_002.fit
+20260321/test/test_003.fit
+20260321/test/test_004.fit
+20260321/test/test_005.fit
+20260321/test/test_006.fit
+20260321/test/test_007.fit
+20260321/test/test_008.fit
+20260321/test/testcalmir_out_016.fit
+20260321/test/testcalmir_out_017.fit
+20260321/test/testcalmir_out_018.fit
+20260321/test/testcalmir_out_019.fit
+20260321/test/testcalmir_out_020.fit
+20260321/test/testcalmir_out_021.fit
+20260321/test/testl=calmie_in_000.fit
+20260321/test/testl=calmie_in_001.fit
+20260321/test/testl=calmie_in_002.fit
+
+sent 7,014 bytes  received 320,287,800 bytes  11,238,414.53 bytes/sec
+total size is 4,434,852,872  speedup is 13.85
+Running: rsync -av archive_data@172.18.1.8::observation_data/DOT/adfosc/2026-C1/ /data/DOT/ADFOSC/2026-C1/rawdata
+
+Sync completed successfully.
+archive_rw
+['20260214', '20260217', '20260220', '20260222']
+[]
+Folder '20260214' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+0   S5_0716_714_B_01.fit     714
+6   S5_0716_714_R_02.fit     714
+11  S5_0716_714_I_01.fit     714
+23  S5_0716_714_V_02.fit     714
+32  S5_0716_714_V_01.fit     714
+35  S5_0716_714_B_02.fit     714
+38  S5_0716_714_I_02.fit     714
+40  S5_0716_714_R_01.fit     714
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260217' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+               Filename Filter1
+7   GM_AUR_H_ALPHA.fits       H
+8         GM_AUR_B.fits  B.fits
+9         GM_AUR_V.fits  V.fits
+12        GM_AUR_I.fits  I.fits
+13        GM_AUR_R.fits  R.fits
+19        HK_ORI_I.fits  I.fits
+20        HK_ORI_R.fits  R.fits
+21  HK_ORI_H_ALPHA.fits       H
+22        HK_ORI_B.fits  B.fits
+23        HK_ORI_U.fits  U.fits
+24        HK_ORI_V.fits  V.fits
+31        RY_TAU_B.fits  B.fits
+32        RY_TAU_R.fits  R.fits
+33        RY_TAU_I.fits  I.fits
+34        RY_TAU_U.fits  U.fits
+35        RY_TAU_V.fits  V.fits
+36  RY_TAU_H_ALPHA.fits       H
+37        BP_TAU_V.fits  V.fits
+38        BP_TAU_R.fits  R.fits
+39        BP_TAU_B.fits  B.fits
+40  BP_TAU_H_ALPHA.fits       H
+41        BP_TAU_I.fits  I.fits
+42        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260220' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+83   GM_AUR_H_ALPHA.fits       H
+84         GM_AUR_B.fits  B.fits
+85         GM_AUR_V.fits  V.fits
+86         GM_AUR_U.fits  U.fits
+87         GM_AUR_I.fits  I.fits
+88         GM_AUR_R.fits  R.fits
+94         HK_ORI_I.fits  I.fits
+95         HK_ORI_R.fits  R.fits
+96   HK_ORI_H_ALPHA.fits       H
+97         HK_ORI_B.fits  B.fits
+98         HK_ORI_U.fits  U.fits
+99         HK_ORI_V.fits  V.fits
+100        RY_TAU_B.fits  B.fits
+101        RY_TAU_R.fits  R.fits
+102        RY_TAU_I.fits  I.fits
+103        RY_TAU_U.fits  U.fits
+104        RY_TAU_V.fits  V.fits
+105  RY_TAU_H_ALPHA.fits       H
+106        BP_TAU_V.fits  V.fits
+107        BP_TAU_R.fits  R.fits
+108        BP_TAU_B.fits  B.fits
+109  BP_TAU_H_ALPHA.fits       H
+110        BP_TAU_I.fits  I.fits
+111        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260222' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                   Filename Filter1
+45    GM_AUR_H_ALPHA_1.fits       H
+50    GM_AUR_H_ALPHA_4.fits       H
+56   GM_AUR_H_ALPHA_13.fits       H
+59   GM_AUR_H_ALPHA_24.fits       H
+70   GM_AUR_H_ALPHA_17.fits       H
+73   GM_AUR_H_ALPHA_22.fits       H
+75   GM_AUR_H_ALPHA_12.fits       H
+77    GM_AUR_H_ALPHA_2.fits       H
+81    GM_AUR_H_ALPHA_5.fits       H
+82   GM_AUR_H_ALPHA_21.fits       H
+86   GM_AUR_H_ALPHA_11.fits       H
+90   GM_AUR_H_ALPHA_15.fits       H
+91    GM_AUR_H_ALPHA_8.fits       H
+97    GM_AUR_H_ALPHA_3.fits       H
+106  GM_AUR_H_ALPHA_23.fits       H
+107   GM_AUR_H_ALPHA_9.fits       H
+116  GM_AUR_H_ALPHA_18.fits       H
+143  GM_AUR_H_ALPHA_14.fits       H
+148  GM_AUR_H_ALPHA_19.fits       H
+150  GM_AUR_H_ALPHA_10.fits       H
+151   GM_AUR_H_ALPHA_7.fits       H
+155  GM_AUR_H_ALPHA_16.fits       H
+158  GM_AUR_H_ALPHA_25.fits       H
+159  GM_AUR_H_ALPHA_20.fits       H
+166   GM_AUR_H_ALPHA_6.fits       H
+172           HK_ORI_I.fits  I.fits
+173           HK_ORI_R.fits  R.fits
+174     HK_ORI_H_ALPHA.fits       H
+175           HK_ORI_B.fits  B.fits
+176           HK_ORI_U.fits  U.fits
+177           HK_ORI_V.fits  V.fits
+267           RY_TAU_B.fits  B.fits
+268           RY_TAU_R.fits  R.fits
+269           RY_TAU_I.fits  I.fits
+270           RY_TAU_U.fits  U.fits
+271           RY_TAU_V.fits  V.fits
+272     RY_TAU_H_ALPHA.fits       H
+273           BP_TAU_V.fits  V.fits
+274           BP_TAU_R.fits  R.fits
+275           BP_TAU_B.fits  B.fits
+276     BP_TAU_H_ALPHA.fits       H
+277           BP_TAU_I.fits  I.fits
+278           BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Empty DataFrame
+Columns: []
+Index: []
+List of 'Final_folder' directories:
+2026-C1
+['20260206', '20260321', '20260320', '20260313']
+Start : 20260206
+go ahed log is there
+Start : 20260321
+No log
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+Skipping file : 'TYPE' keyword not found in header.
+Start : 20260320
+No log
+Start : 20260313
+go ahed log is there
+['kuntal@aries.res.in', 'thisisamalmp@gmail.com', 'sanjit@aries.res.in', 'neelam@aries.res.in', 'govind@aries.res.in', 'suvendu@aries.res.in', 'ashishdevaraj@aries.res.in', 'geetarangwal@aries.res.in']
+Email sent successfully!
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/dfot.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/adfosc.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/DFOT.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/ADFOSC.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/JSON_UPDATE.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py 
+Both scripts finished successfully.

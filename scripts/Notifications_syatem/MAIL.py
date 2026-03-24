@@ -318,10 +318,10 @@ def send_email(today_date,subject, to_email, html_body,cc_emails):
 today_date = date.today().strftime("%Y%m%d")
 year = today_date[:4]
 subject = "Data Archive Daily report : "+date.today().strftime("%Y/%m/%d")  
-# cc_emails=['thisisamalmp@gmail.com','sanjit@aries.res.in','neelam@aries.res.in','govind@aries.res.in','suvendu@aries.res.in','ashishdevaraj@aries.res.in','geetarangwal@aries.res.in']
-cc_emails =['thisisamalmp@gmail.com']
-# to_email = "kuntal@aries.res.in"
-to_email= 'amalmpdiaries@gmail.com'
+cc_emails=['thisisamalmp@gmail.com','sanjit@aries.res.in','neelam@aries.res.in','govind@aries.res.in','suvendu@aries.res.in','ashishdevaraj@aries.res.in','geetarangwal@aries.res.in']
+# cc_emails =['thisisamalmp@gmail.com']
+to_email = "kuntal@aries.res.in"
+# to_email= 'amalmpdiaries@gmail.com'
 # to_email ='thisisamalmp@gmail.com'
 # cc_emails =['amalmpdiaries@gmail.com']
 send_email(today_date,subject, to_email, html_body,cc_emails)

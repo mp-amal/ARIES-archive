@@ -1,0 +1,1412 @@
+receiving incremental file list
+./
+20260323/
+20260323/bias_01.fits
+20260323/bias_02.fits
+
+sent 193 bytes  received 16,857,924 bytes  4,816,604.86 bytes/sec
+total size is 31,838,649,220  speedup is 1,888.62
+Running: rsync -av archive_data@172.18.1.8::observation_data/DFOT/2026A/ /data/DFOT_DATA/2026A/rawdata/
+
+Sync completed successfully.
+receiving incremental file list
+./
+20260323/
+20260323/20260323_adfosc_log/
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_06_08.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_16_08.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_26_08.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_36_08.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_46_08.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_13_56_10.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_06_11.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_16_09.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_26_09.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_36_12.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_46_12.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_14_56_12.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_06_12.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_16_12.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_26_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_36_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_46_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_15_56_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_06_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_16_15.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_26_18.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_36_18.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_46_18.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_16_56_18.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_06_19.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_16_19.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_26_19.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_36_22.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_46_21.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_17_56_21.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_06_21.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_16_21.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_26_21.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_36_24.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_46_24.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_18_56_24.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_06_24.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_16_24.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_26_27.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_36_27.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_46_27.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_19_56_27.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_06_27.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_16_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_26_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_36_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_46_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_20_56_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_06_30.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_16_33.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_26_33.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_36_33.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_46_32.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_21_56_32.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_06_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_16_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_26_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_36_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_46_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_22_56_35.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_06_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_16_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_26_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_36_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_46_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_23_23_56_38.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_06_41.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_16_41.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_26_41.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_36_41.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_46_41.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_00_56_44.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_06_44.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_16_44.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_26_44.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_36_44.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_46_47.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_01_56_46.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_06_46.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_16_46.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_26_47.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_36_48.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_46_47.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_02_56_49.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_06_50.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_16_50.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_26_49.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_36_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_46_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_03_56_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_06_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_16_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_26_52.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_36_55.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_46_55.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_04_56_55.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_06_57.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_16_58.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_26_57.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_36_57.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_46_57.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_05_56_56.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_07_00.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_16_59.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_26_59.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_36_59.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_46_59.txt
+20260323/20260323_adfosc_log/adfosc_ics_log_2026_03_24_06_57_02.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_01_06.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_06_06.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_11_06.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_16_07.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_21_07.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_26_07.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_31_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_36_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_41_07.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_46_07.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_51_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_13_56_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_01_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_06_08.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_11_09.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_16_09.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_21_09.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_26_10.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_31_10.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_36_10.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_41_10.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_46_11.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_51_11.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_14_56_11.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_01_11.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_06_12.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_11_12.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_16_12.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_21_13.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_26_13.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_31_13.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_36_13.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_41_14.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_46_14.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_51_14.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_15_56_14.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_01_15.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_06_15.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_11_15.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_16_16.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_21_16.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_26_16.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_31_16.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_36_17.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_41_17.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_46_17.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_51_17.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_16_56_18.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_01_18.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_06_18.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_11_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_16_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_21_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_26_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_31_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_36_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_41_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_46_19.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_51_20.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_17_56_20.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_01_20.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_06_21.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_11_21.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_16_21.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_21_21.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_26_22.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_31_22.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_36_22.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_41_22.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_46_23.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_51_23.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_18_56_23.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_01_24.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_06_24.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_11_24.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_16_24.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_21_25.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_26_25.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_31_25.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_36_25.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_41_26.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_46_26.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_51_26.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_19_56_27.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_01_27.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_06_27.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_11_27.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_16_28.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_21_28.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_26_28.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_31_28.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_36_29.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_41_29.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_46_29.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_51_30.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_20_56_30.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_01_30.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_06_30.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_11_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_16_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_21_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_26_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_31_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_36_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_41_31.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_46_32.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_51_32.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_21_56_32.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_01_32.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_06_33.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_11_33.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_16_33.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_21_34.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_26_34.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_31_34.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_36_34.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_41_35.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_46_35.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_51_35.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_22_56_35.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_01_36.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_06_36.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_11_36.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_16_37.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_21_37.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_26_37.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_31_37.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_36_38.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_41_38.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_46_38.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_51_38.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_23_23_56_39.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_01_39.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_06_39.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_11_40.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_16_40.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_21_40.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_26_40.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_31_41.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_36_41.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_41_41.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_46_41.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_51_42.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_00_56_42.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_01_42.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_06_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_11_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_16_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_21_42.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_26_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_31_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_36_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_41_43.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_46_44.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_51_44.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_01_56_44.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_01_45.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_06_45.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_11_45.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_16_45.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_21_46.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_26_46.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_31_46.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_36_46.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_41_47.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_46_47.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_51_47.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_02_56_47.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_01_48.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_06_48.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_11_48.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_16_49.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_21_49.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_26_49.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_31_49.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_36_50.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_41_50.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_46_50.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_51_50.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_03_56_51.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_01_51.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_06_51.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_11_52.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_16_52.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_21_52.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_26_52.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_31_53.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_36_53.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_41_53.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_46_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_51_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_04_56_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_01_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_06_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_11_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_16_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_21_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_26_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_31_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_36_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_41_55.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_46_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_51_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_05_56_56.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_01_57.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_06_57.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_11_57.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_16_57.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_21_58.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_26_58.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_31_58.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_36_58.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_41_59.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_46_59.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_51_59.txt
+20260323/20260323_adfosc_log/adfosc_telnet_log_2026_03_24_06_57_00.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_02_22_46.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_02_32_46.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_02_42_46.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_02_52_47.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_02_48.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_12_48.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_22_48.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_32_49.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_42_50.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_03_52_50.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_02_51.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_12_51.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_22_52.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_32_52.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_42_52.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_04_52_55.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_02_54.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_12_55.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_22_55.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_32_55.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_42_56.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_05_52_56.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_02_57.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_12_57.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_22_58.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_32_58.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_42_59.txt
+20260323/20260323_adfosc_log/tcs_telnet_log_2026_03_24_06_52_59.txt
+20260323/P21/
+20260323/P21/GOODSNorth_A_P21_r_004.fit
+20260323/P21/GOODSNorth_A_P21_r_005.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_009.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_120s_013.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_120s_014.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_012.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_015.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_016.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_017.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_018.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_019.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_300s_011.fit
+20260323/P21/GOODSNorth_B_P21_Redprism_600s_010.fit
+20260323/P21/GOODSNorth_B_P21_r_007.fit
+20260323/P21/GOODSNorth_B_P21_r_008.fit
+20260323/P21/T_GOODSNorth_A_P21_Redprism_003.fit
+20260323/P21/Test_001.fit
+20260323/P21/Test_002.fit
+20260323/P21/test_GOODSNorth_A_P21_Redprism_006.fit
+20260323/bias/
+20260323/bias/bias_000.fit
+20260323/bias/bias_001.fit
+20260323/bias/bias_002.fit
+20260323/bias/bias_003.fit
+20260323/bias/bias_004.fit
+20260323/bias/bias_005.fit
+20260323/bias/bias_006.fit
+20260323/bias/bias_007.fit
+20260323/bias/bias_008.fit
+20260323/bias/bias_009.fit
+20260323/bias/bias_010.fit
+20260323/lamp/
+20260323/lamp/lamp1_HgAr_1.5arc_676R_009.fit
+20260323/lamp/lamp1_HgAr_1.5arc_676R_010.fit
+20260323/lamp/lamp1_HgAr_1.5arc_676R_011.fit
+20260323/lamp/lamp1_HgAr_1.5arc_676R_012.fit
+20260323/lamp/lamp2_Ne_1.5arc_676R_005.fit
+20260323/lamp/lamp2_Ne_1.5arc_676R_006.fit
+20260323/lamp/lamp2_Ne_1.5arc_676R_007.fit
+20260323/lamp/lamp2_Ne_1.5arc_676R_008.fit
+20260323/lamp/lamp3_cont_1.5arc_676R_000.fit
+20260323/lamp/lamp3_cont_1.5arc_676R_001.fit
+20260323/lamp/lamp3_cont_1.5arc_676R_002.fit
+20260323/lamp/lamp3_cont_1.5arc_676R_003.fit
+20260323/lamp/lamp3_cont_1.5arc_676R_004.fit
+20260323/test/
+20260323/test/test_cal_in_000.fit
+20260323/test/test_cal_in_001.fit
+20260323/test/test_cal_in_002.fit
+20260323/test/test_cal_in_003.fit
+20260323/test/test_cal_in_004.fit
+20260323/test/test_cal_out_000.fit
+20260323/test/test_cal_out_001.fit
+
+sent 7,885 bytes  received 452,024,008 bytes  11,161,281.31 bytes/sec
+total size is 5,346,636,768  speedup is 11.83
+Running: rsync -av archive_data@172.18.1.8::observation_data/DOT/adfosc/2026-C1/ /data/DOT/ADFOSC/2026-C1/rawdata
+
+Sync completed successfully.
+archive_rw
+['20260214', '20260217', '20260220', '20260222', '20260323']
+[]
+Folder '20260214' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+0   S5_0716_714_B_01.fit     714
+6   S5_0716_714_R_02.fit     714
+11  S5_0716_714_I_01.fit     714
+23  S5_0716_714_V_02.fit     714
+32  S5_0716_714_V_01.fit     714
+35  S5_0716_714_B_02.fit     714
+38  S5_0716_714_I_02.fit     714
+40  S5_0716_714_R_01.fit     714
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260217' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+               Filename Filter1
+7   GM_AUR_H_ALPHA.fits       H
+8         GM_AUR_B.fits  B.fits
+9         GM_AUR_V.fits  V.fits
+12        GM_AUR_I.fits  I.fits
+13        GM_AUR_R.fits  R.fits
+19        HK_ORI_I.fits  I.fits
+20        HK_ORI_R.fits  R.fits
+21  HK_ORI_H_ALPHA.fits       H
+22        HK_ORI_B.fits  B.fits
+23        HK_ORI_U.fits  U.fits
+24        HK_ORI_V.fits  V.fits
+31        RY_TAU_B.fits  B.fits
+32        RY_TAU_R.fits  R.fits
+33        RY_TAU_I.fits  I.fits
+34        RY_TAU_U.fits  U.fits
+35        RY_TAU_V.fits  V.fits
+36  RY_TAU_H_ALPHA.fits       H
+37        BP_TAU_V.fits  V.fits
+38        BP_TAU_R.fits  R.fits
+39        BP_TAU_B.fits  B.fits
+40  BP_TAU_H_ALPHA.fits       H
+41        BP_TAU_I.fits  I.fits
+42        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260220' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                Filename Filter1
+83   GM_AUR_H_ALPHA.fits       H
+84         GM_AUR_B.fits  B.fits
+85         GM_AUR_V.fits  V.fits
+86         GM_AUR_U.fits  U.fits
+87         GM_AUR_I.fits  I.fits
+88         GM_AUR_R.fits  R.fits
+94         HK_ORI_I.fits  I.fits
+95         HK_ORI_R.fits  R.fits
+96   HK_ORI_H_ALPHA.fits       H
+97         HK_ORI_B.fits  B.fits
+98         HK_ORI_U.fits  U.fits
+99         HK_ORI_V.fits  V.fits
+100        RY_TAU_B.fits  B.fits
+101        RY_TAU_R.fits  R.fits
+102        RY_TAU_I.fits  I.fits
+103        RY_TAU_U.fits  U.fits
+104        RY_TAU_V.fits  V.fits
+105  RY_TAU_H_ALPHA.fits       H
+106        BP_TAU_V.fits  V.fits
+107        BP_TAU_R.fits  R.fits
+108        BP_TAU_B.fits  B.fits
+109  BP_TAU_H_ALPHA.fits       H
+110        BP_TAU_I.fits  I.fits
+111        BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260222' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+                   Filename Filter1
+45    GM_AUR_H_ALPHA_1.fits       H
+50    GM_AUR_H_ALPHA_4.fits       H
+56   GM_AUR_H_ALPHA_13.fits       H
+59   GM_AUR_H_ALPHA_24.fits       H
+70   GM_AUR_H_ALPHA_17.fits       H
+73   GM_AUR_H_ALPHA_22.fits       H
+75   GM_AUR_H_ALPHA_12.fits       H
+77    GM_AUR_H_ALPHA_2.fits       H
+81    GM_AUR_H_ALPHA_5.fits       H
+82   GM_AUR_H_ALPHA_21.fits       H
+86   GM_AUR_H_ALPHA_11.fits       H
+90   GM_AUR_H_ALPHA_15.fits       H
+91    GM_AUR_H_ALPHA_8.fits       H
+97    GM_AUR_H_ALPHA_3.fits       H
+106  GM_AUR_H_ALPHA_23.fits       H
+107   GM_AUR_H_ALPHA_9.fits       H
+116  GM_AUR_H_ALPHA_18.fits       H
+143  GM_AUR_H_ALPHA_14.fits       H
+148  GM_AUR_H_ALPHA_19.fits       H
+150  GM_AUR_H_ALPHA_10.fits       H
+151   GM_AUR_H_ALPHA_7.fits       H
+155  GM_AUR_H_ALPHA_16.fits       H
+158  GM_AUR_H_ALPHA_25.fits       H
+159  GM_AUR_H_ALPHA_20.fits       H
+166   GM_AUR_H_ALPHA_6.fits       H
+172           HK_ORI_I.fits  I.fits
+173           HK_ORI_R.fits  R.fits
+174     HK_ORI_H_ALPHA.fits       H
+175           HK_ORI_B.fits  B.fits
+176           HK_ORI_U.fits  U.fits
+177           HK_ORI_V.fits  V.fits
+267           RY_TAU_B.fits  B.fits
+268           RY_TAU_R.fits  R.fits
+269           RY_TAU_I.fits  I.fits
+270           RY_TAU_U.fits  U.fits
+271           RY_TAU_V.fits  V.fits
+272     RY_TAU_H_ALPHA.fits       H
+273           BP_TAU_V.fits  V.fits
+274           BP_TAU_R.fits  R.fits
+275           BP_TAU_B.fits  B.fits
+276     BP_TAU_H_ALPHA.fits       H
+277           BP_TAU_I.fits  I.fits
+278           BP_TAU_U.fits  U.fits
+
+
+ wrong files
+
+ Not completed 
+
+
+ Deleted for manual check
+Folder '20260323' copied to '/data/DFOT_DATA/2026A/Processed_data' successfully.
+..
+Okey, added to list
+Empty DataFrame
+Columns: []
+Index: [20260323]
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+<----- 1.  Null Header updated  ----->
+
+<----- 2.  Tempalte Header updated  ----->
+
+<----- 3.  Telescope Header updated  ----->
+DATE_OBS updated form frame
+Expousure removed
+NAXIS 1
+bias_02.fits
+bias_01.fits
+
+ final data log added
+List of 'Final_folder' directories:
+/data/DFOT_DATA/2026A/Processed_data/20260323/Final_data--------------> copied to db
+could not convert string to float: 'NULL'
+could not convert string to float: 'NULL'
+Total number of fits files present in the directory = 2
+Total No of files processed = 2
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 213 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 28.8103 (3.25196e+12), 25 match, 0 conflict, 28 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.395102 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----+++----+--++++--+-+-++-+-+--+++---+---++(best)---+-------+---------+---+-+-----------+-+-++--
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.fit
+Field center: (RA,Dec) = (189.103073, 62.358838) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.738, +62:21:31.817).
+Field size: 13.2996 x 13.7436 arcminutes
+Field rotation angle: up is 90.2877 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 921 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.27,62.3892)
+  log-odds ratio 287.392 (6.49551e+124), 50 match, 0 conflict, 30 distractors, 65 index.
+  RA,Dec = (189.278,62.4294), pixel scale 0.405156 arcsec/pix.
+  Hit/miss:   Hit/miss: +++-+++++-++++++++++---+++++-+---++++++++++---++--+-+-++--+--+-++--+-+--+-++---+(best)---------------+----
+Field 1: solved with index index-5203-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.fit
+Field center: (RA,Dec) = (189.278285, 62.429179) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:37:06.788, +62:25:45.046).
+Field size: 13.7814 x 13.7757 arcminutes
+Field rotation angle: up is 90.2308 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1095 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 157.821 (3.47463e+68), 21 match, 0 conflict, 32 distractors, 29 index.
+  RA,Dec = (189.116,62.3862), pixel scale 0.403335 arcsec/pix.
+  Hit/miss:   Hit/miss: +-+++-+++++-++-+++-+-----++-+----+---+--------------+(best)-----------------------------------------------
+Field 1: solved with index index-5204-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.fit
+Field center: (RA,Dec) = (189.116593, 62.386230) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:27.982, +62:23:10.429).
+Field size: 13.7594 x 13.7561 arcminutes
+Field rotation angle: up is 90.2245 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 1011 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 372.175 (4.2993e+161), 92 match, 1 conflict, 198 distractors, 122 index.
+  RA,Dec = (189.104,62.3546), pixel scale 0.405668 arcsec/pix.
+  Hit/miss:   Hit/miss: +++++++++-+-++--++-+-++++++++++++++--+++++-+++++++-+++--+-+--++++++++-+++-+-+---+-------+-+-+-+-----
+Field 1: solved with index index-5202-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.fit
+Field center: (RA,Dec) = (189.104332, 62.354395) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:25.040, +62:21:15.823).
+Field size: 13.7781 x 13.7659 arcminutes
+Field rotation angle: up is 90.246 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 938 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.27,62.3892)
+  log-odds ratio 295.9 (3.21861e+128), 57 match, 1 conflict, 62 distractors, 62 index.
+  RA,Dec = (189.28,62.4295), pixel scale 0.404329 arcsec/pix.
+  Hit/miss:   Hit/miss: +++++++++++c++++++-+-++++++-++++-+-++++-+---+--++++++-++-+-+-+-++-+---+--+-+-------+---+-----------+
+Field 1: solved with index index-4203-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.fit
+Field center: (RA,Dec) = (189.279454, 62.429362) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:37:07.069, +62:25:45.703).
+Field size: 13.76 x 13.765 arcminutes
+Field rotation angle: up is 90.2878 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 964 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.27,62.3892)
+  log-odds ratio 280.464 (6.3678e+121), 48 match, 0 conflict, 32 distractors, 65 index.
+  RA,Dec = (189.278,62.4293), pixel scale 0.405175 arcsec/pix.
+  Hit/miss:   Hit/miss: -++-+++++-++++++-++++--+++++-++--++++++++++---+++-+--++++-++----+--+-+---------+(best)--------------------
+Field 1: solved with index index-5203-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.fit
+Field center: (RA,Dec) = (189.278815, 62.429082) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:37:06.916, +62:25:44.694).
+Field size: 13.782 x 13.7756 arcminutes
+Field rotation angle: up is 90.2311 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 214 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 30.1534 (1.24584e+13), 25 match, 0 conflict, 26 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.395018 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++--+-++++-+-+---++---+--+(best)---------++--++--------+---+-+----+-+--------+---
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.fit
+Field center: (RA,Dec) = (189.103059, 62.358819) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.734, +62:21:31.749).
+Field size: 13.2945 x 13.7411 arcminutes
+Field rotation angle: up is 90.2879 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_009.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 11 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_009.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+Field 1 did not solve (index index-4107.fits).
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_009.fit
+Did not solve (or no WCS file was written).
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 218 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 33.2326 (2.70848e+14), 33 match, 0 conflict, 42 distractors, 115 index.
+  RA,Dec = (189.107,62.3608), pixel scale 0.395054 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++------++++--+-+-++---+--+++-+-+---+---++---+----+--++++--+(best)---+--------+------+-----
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.fit
+Field center: (RA,Dec) = (189.103004, 62.358795) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.721, +62:21:31.663).
+Field size: 13.2917 x 13.7392 arcminutes
+Field rotation angle: up is 90.2732 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.new"...
+
+2026-C1
+['20260323', '20260320', '20260321', '20260313', '20260206']
+Start : 20260323
+No log
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_019.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_019.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_019.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_019.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_019.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:41:35.207-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:41:35.207-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_A_P21_r_005.fit
+🚀 Updating : 20260323/P21/GOODSNorth_A_P21_r_005.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_A_P21_r_005.fit
+RA  :  189.26983335
+DEC :  62.38915833
+
+Astrometry Ran Sucessfully For : GOODSNorth_A_P21_r_005.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_005.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:31:12.372-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:31:12.372-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_r_007.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_r_007.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_r_007.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_r_007.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_007.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:51:34.814-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:51:34.814-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_r_008.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_r_008.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_r_008.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_r_008.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_r_008.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:56:03.082-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:56:03.082-DOT-ADFOSC.fits
+20260323/P21/T_GOODSNorth_A_P21_Redprism_003.fit
+🚀 Updating : 20260323/P21/T_GOODSNorth_A_P21_Redprism_003.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/T_GOODSNorth_A_P21_Redprism_003.fit
+RA  :  189.26983335
+DEC :  62.38915833
+
+Astrometry Ran Sucessfully For : T_GOODSNorth_A_P21_Redprism_003.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/T_GOODSNorth_A_P21_Redprism_003.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:24:27.875-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:24:27.875-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_A_P21_r_004.fit
+🚀 Updating : 20260323/P21/GOODSNorth_A_P21_r_004.fit
+Mode :  Imaging
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_A_P21_r_004.fit
+RA  :  189.26983335
+DEC :  62.38915833
+
+Astrometry Ran Sucessfully For : GOODSNorth_A_P21_r_004.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_A_P21_r_004.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:27:52.824-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T02:27:52.824-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_015.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_015.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_015.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_015.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_015.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:29:09.839-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:29:09.839-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_009.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_009.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_009.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_009.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_009.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_009.new
+
+Astrometry faild in 'GOODSNorth_B_P21_Redprism_009.fit'
+20260323/P21/GOODSNorth_B_P21_Redprism_300s_011.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_300s_011.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_300s_011.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_300s_011.fit
+Image PAth  Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 233 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 26.299 (2.63936e+11), 23 match, 0 conflict, 21 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.394919 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++--+-+-++-+-+--+++(best)---+-------------+---+---+---+----+-+--+------------+---
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.fit
+Field center: (RA,Dec) = (189.103145, 62.358847) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.755, +62:21:31.849).
+Field size: 13.2898 x 13.7415 arcminutes
+Field rotation angle: up is 90.3052 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 486 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 239.654 (1.20344e+104), 60 match, 4 conflict, 103 distractors, 69 index.
+  RA,Dec = (189.097,62.3584), pixel scale 0.396913 arcsec/pix.
+  Hit/miss:   Hit/miss: ++++++++++-+++-+cc--+++--c+-++++-+--------+-+-++--+--+--++-+-----++++--c-++++--+----++-+++--++---+--
+Field 1: solved with index index-4202-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.fit
+Field center: (RA,Dec) = (189.103237, 62.358863) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.777, +62:21:31.905).
+Field size: 13.2838 x 13.7305 arcminutes
+Field rotation angle: up is 90.1369 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 235 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 26.4801 (3.16332e+11), 32 match, 0 conflict, 49 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.395041 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++--+-+-++-+-+----+---+--++---++--------+---++--+----+-+(best)--+-+-+------------
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.fit
+Field center: (RA,Dec) = (189.102995, 62.358863) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.719, +62:21:31.906).
+Field size: 13.2948 x 13.7402 arcminutes
+Field rotation angle: up is 90.2863 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 226 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 31.9961 (7.86547e+13), 30 match, 0 conflict, 41 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.394957 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++--+-+-++-+-+--++-+--+---++-------+---++----+(best)---------------------+-+-+---
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.fit
+Field center: (RA,Dec) = (189.103113, 62.358808) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.747, +62:21:31.708).
+Field size: 13.2986 x 13.74 arcminutes
+Field rotation angle: up is 90.2794 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 223 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 22.9068 (8.87806e+09), 21 match, 0 conflict, 22 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.394988 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++----+-++-+-+--++(best)----+---++---+---+--------+----+---+---+--+--++--+-------
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.fit
+Field center: (RA,Dec) = (189.103096, 62.358799) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.743, +62:21:31.675).
+Field size: 13.2925 x 13.7393 arcminutes
+Field rotation angle: up is 90.2768 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 245 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 33.2536 (2.76598e+14), 21 match, 0 conflict, 40 distractors, 60 index.
+  RA,Dec = (189.103,62.3578), pixel scale 0.404406 arcsec/pix.
+  Hit/miss:   Hit/miss: --+++-+---+---+-+++-+-+-+---+-+----++-----+-+---------+---+-+(best)----------------------+---------------+
+Field 1: solved with index index-4203-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.fit
+Field center: (RA,Dec) = (189.103416, 62.358945) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.820, +62:21:32.203).
+Field size: 13.2762 x 13.7241 arcminutes
+Field rotation angle: up is 90.1756 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.new"...
+
+Reading input file 1 of 1: "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.fit"...
+Extracting sources...
+Downsampling by 2...
+simplexy: found 271 sources.
+Solving...
+Reading file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.axy"...
+Only searching for solutions within 20 degrees of RA,Dec (189.112,62.3457)
+  log-odds ratio 26.503 (3.23667e+11), 24 match, 0 conflict, 29 distractors, 115 index.
+  RA,Dec = (189.107,62.3609), pixel scale 0.395221 arcsec/pix.
+  Hit/miss:   Hit/miss: --+--++++----++++---+--++++--+-+--+-+-+--++----+---++(best)---+--------+---+----+-------+---------+-+-+++-
+Field 1: solved with index index-5002-09.fits.
+Field 1 solved: writing to file /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.solved to indicate this.
+Field: /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.fit
+Field center: (RA,Dec) = (189.103024, 62.358818) deg.
+Field center: (RA H:M:S, Dec D:M:S) = (12:36:24.726, +62:21:31.745).
+Field size: 13.29 x 13.741 arcminutes
+Field rotation angle: up is 90.2653 degrees E of N
+Field parity: neg
+Creating new FITS file "/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.new"...
+
+/data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_300s_011.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:11:31.951-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:11:31.951-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_017.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_017.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_017.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_017.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_017.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:35:22.557-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:35:22.557-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_600s_010.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_600s_010.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_600s_010.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_600s_010.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_600s_010.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:10:23.396-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:10:23.396-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_012.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_012.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_012.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_012.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_012.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:18:29.104-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:18:29.104-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_018.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_018.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_018.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_018.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_018.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:38:28.880-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:38:28.880-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_150s_016.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_150s_016.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_150s_016.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_150s_016.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_150s_016.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:32:16.236-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:32:16.236-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_120s_014.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_120s_014.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_120s_014.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_120s_014.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_014.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:26:01.006-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:26:01.006-DOT-ADFOSC.fits
+20260323/P21/GOODSNorth_B_P21_Redprism_120s_013.fit
+🚀 Updating : 20260323/P21/GOODSNorth_B_P21_Redprism_120s_013.fit
+Mode :  NULL
+
+ file moved :  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/P21/imaging/GOODSNorth_B_P21_Redprism_120s_013.fit
+RA  :  189.11170829999998
+DEC :  62.34566667
+
+Astrometry Ran Sucessfully For : GOODSNorth_B_P21_Redprism_120s_013.fit
+Image PAth  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.fit
+New path  /data/DOT/ADFOSC/2026-C1/Processed_Data/raw_processing/20260323/imaging/GOODSNorth_B_P21_Redprism_120s_013.new
+
+<----- .  Astrometry header updated  ----->
+
+................exist...................
+
+Renamed:  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:22:59.826-DOT-ADFOSC.fits
+Thumbnail saved!!
+File saved to : ===============================================>>>>>>>>>>>>  /data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323/S-2026APP21-2026-03-24T03:22:59.826-DOT-ADFOSC.fits
+20260323/bias/bias_008.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_008.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_004.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_004.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_009.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_009.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_000.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_000.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_010.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_010.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_006.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_006.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_003.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_003.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_002.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_002.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_007.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_007.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_001.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_001.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/bias/bias_005.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/bias/bias_005.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp3_cont_1.5arc_676R_000.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp3_cont_1.5arc_676R_000.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp3_cont_1.5arc_676R_002.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp3_cont_1.5arc_676R_002.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp2_Ne_1.5arc_676R_006.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp2_Ne_1.5arc_676R_006.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp3_cont_1.5arc_676R_003.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp3_cont_1.5arc_676R_003.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp2_Ne_1.5arc_676R_008.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp2_Ne_1.5arc_676R_008.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp1_HgAr_1.5arc_676R_012.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp1_HgAr_1.5arc_676R_012.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp1_HgAr_1.5arc_676R_010.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp1_HgAr_1.5arc_676R_010.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp1_HgAr_1.5arc_676R_011.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp1_HgAr_1.5arc_676R_011.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp2_Ne_1.5arc_676R_005.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp2_Ne_1.5arc_676R_005.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp3_cont_1.5arc_676R_004.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp3_cont_1.5arc_676R_004.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp3_cont_1.5arc_676R_001.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp3_cont_1.5arc_676R_001.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp1_HgAr_1.5arc_676R_009.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp1_HgAr_1.5arc_676R_009.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260323/lamp/lamp2_Ne_1.5arc_676R_007.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260323/lamp/lamp2_Ne_1.5arc_676R_007.fit
+Skipping file : 'TYPE' keyword not found in header.
+['S-2026APP21-2026-03-24T02:31:12.372-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:26:01.006-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T02:27:52.824-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:29:09.839-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:10:23.396-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:41:35.207-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T02:24:27.875-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:35:22.557-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:38:28.880-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T02:51:34.814-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:22:59.826-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T02:56:03.082-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:32:16.236-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:18:29.104-DOT-ADFOSC.fits', 'S-2026APP21-2026-03-24T03:11:31.951-DOT-ADFOSC.fits']
+/data/DOT/ADFOSC/2026-C1/Processed_Data/Final_data/20260323--------------> copied to db
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T02:31:12.372-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:26:01.006-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T02:27:52.824-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:29:09.839-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:10:23.396-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:41:35.207-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T02:24:27.875-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:35:22.557-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:38:28.880-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T02:51:34.814-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:22:59.826-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T02:56:03.082-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:32:16.236-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:18:29.104-DOT-ADFOSC.fits
+/data/DOT/ADFOSC/2026-C1/Processed_Data/data_share/DOT/20260323/P21/S-2026APP21-2026-03-24T03:11:31.951-DOT-ADFOSC.fits
+Folder copied successfully.
+Start : 20260320
+No log
+Start : 20260321
+No log
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_006.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_012.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_014.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_005.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_008.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_009.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_007.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_002.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Neon_676R_1.0arcsec_0.008se_004.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_015.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_013.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_010.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lamp_Cont_676R_1.0arcsec_0.1se_011.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_000.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_001.fit
+Skipping file : 'TYPE' keyword not found in header.
+20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+No Proposal ID found in the file name.
+🚀 Updating : 20260321/lamp/lampHgAr_676R_1.0arcsec_0.01se_003.fit
+Skipping file : 'TYPE' keyword not found in header.
+Start : 20260313
+go ahed log is there
+Start : 20260206
+go ahed log is there
+['kuntal@aries.res.in', 'thisisamalmp@gmail.com', 'sanjit@aries.res.in', 'neelam@aries.res.in', 'govind@aries.res.in', 'suvendu@aries.res.in', 'ashishdevaraj@aries.res.in', 'geetarangwal@aries.res.in']
+Email sent successfully!
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/dfot.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/sync/adfosc.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/DFOT.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/data_processing/ADFOSC.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/JSON_UPDATE.py 
+Running: /home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py 
+Both scripts finished successfully.
