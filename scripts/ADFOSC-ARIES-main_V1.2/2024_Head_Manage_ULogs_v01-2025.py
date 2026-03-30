@@ -438,12 +438,12 @@ def DataBasefromFile_v02(adfosclist, telnetlist):
             unused_telnet.append(telnetfile)  # Mark as unused in case of exception
 
     # Save used and unused Telnet files
-    with open('used_telnet.txt', 'a') as used_file:
-        for file in used_telnet:
-            used_file.write(f'{file}\n')
-    with open('unused_telnet.txt', 'a') as unused_file:
-        for file in unused_telnet:
-            unused_file.write(f'{file}\n')
+    # with open('used_telnet.txt', 'a') as used_file:
+    #     for file in used_telnet:
+    #         used_file.write(f'{file}\n')
+    # with open('unused_telnet.txt', 'a') as unused_file:
+    #     for file in unused_telnet:
+    #         unused_file.write(f'{file}\n')
 
     return adfoscmetadata, tcsmetadata
 

@@ -140,8 +140,8 @@ def move_fits_files(source_folder, destination_folder,Base_folder):
                         path = filepath
                         after_8digits = re.split(r"\d{8}/", path, maxsplit=1)[1]
                         # print(after_8digits)
-                        os.makedirs(os.path.dirname(os.path.join(destination_folder,after_8digits)),exist_ok=True)
-                        shutil.move(filepath, os.path.join(destination_folder,after_8digits))
+                        # os.makedirs(os.path.dirname(os.path.join(destination_folder,after_8digits)),exist_ok=True)
+                        # shutil.move(filepath, os.path.join(destination_folder,after_8digits))
                     else:
                         path = filepath
                         after_8digits = re.split(r"\d{8}/", path, maxsplit=1)[1]

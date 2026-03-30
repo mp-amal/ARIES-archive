@@ -1,3 +1,4 @@
 *.yaml
 *.dat
 *.json
+extra_features/
