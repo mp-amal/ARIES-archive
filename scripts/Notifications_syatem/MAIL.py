@@ -263,7 +263,7 @@ for teles in ['ST','DFOT','DOT']:
     if all_data_for_date.get(teles) is None:
 
         all_data_for_date[teles] = template.copy()
-        all_data_for_date[teles]['status'] = 'No observation'
+        all_data_for_date[teles]['status'] = 'Not archived'
         all_data_for_date[teles]['comment'] = 'No data'
 
     else:
