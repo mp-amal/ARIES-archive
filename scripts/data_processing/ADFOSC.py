@@ -172,6 +172,7 @@ def PROPNO(file_name):
         print("No Proposal ID found in the file name.")
 
 def rename_fits_file(filename, db_path):
+
     """
     Rename a FITS file based on its TYPE, DATE-OBS, TELESCOP, and INSTRUME header keywords.
 
@@ -179,6 +180,13 @@ def rename_fits_file(filename, db_path):
     - filename : str : Path to the FITS file.
     - db_path  : str : Directory where the renamed file should be moved.
     """
+    if "TEST" in filename.upper():
+            new_name = f"T-{year}AP{propid[0].replace('_','').upper()}-{date_obs}-{telescope}-{instru}.fits"
+            new_path = os.path.join(db_path, new_name)
+            os.rename(filename, new_path)
+    else:
+        pass
+
     with fits.open(filename) as hdul:
         header    = hdul[0].header
         type_     = header['TYPE']
@@ -292,131 +300,136 @@ def main():
                 # print(file)
                 if'.fit' in file :
                     file_path = os.path.join(path,file)
-                    if not 'TEST' in file_path.upper():
-                        process_path = Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/raw_processing")
-                        rel_path = Path(file_path).relative_to(process_path)
-                        print(rel_path)
-                        process_fits_file(file_path,str(rel_path),log_path)
-        # # #                 # if not os.path.exists(file_path):
-        # # #                 #         continue
-                        with fits.open(file_path, ignore_missing_simple=True) as hdul:
-                            # relative_path = os.path.relpath(file_path, start=local_path)
-                            header = hdul[0].header
-                            # print(header['TYPE'])
-                            
-                            process_dir_path =os.path.join(Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/Final_data"),date)
-                            try:
-                                type = header["TYPE"]
-                            except KeyError:
-                                print(f"Skipping file : 'TYPE' keyword not found in header.")
-                                # return  # or `continue` if this is inside a loop
-                                continue
-                            # type = header["TYPE"]
-                            # print(type)
-                            if type  == "LAMP":
+                    # if not 'TEST' in file_path.upper():
+                    process_path = Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/raw_processing")
+                    rel_path = Path(file_path).relative_to(process_path)
+                    print(rel_path)
+                    process_fits_file(file_path,str(rel_path),log_path)
+    # # #                 # if not os.path.exists(file_path):
+    # # #                 #         continue
+                    with fits.open(file_path, ignore_missing_simple=True) as hdul:
+                        # relative_path = os.path.relpath(file_path, start=local_path)
+                        header = hdul[0].header
+                        # print(header['TYPE'])
+                        
+                        process_dir_path =os.path.join(Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/Final_data"),date)
+                        try:
+                            type = header["TYPE"]
+                        except KeyError:
+                            print(f"Skipping file : 'TYPE' keyword not found in header.")
+                            # return  # or `continue` if this is inside a loop
+                            continue
+                        # type = header["TYPE"]
+                        # print(type)
+                        if type  == "LAMP":
+                            os.makedirs(process_dir_path,exist_ok=True)
+                            rename_fits_file(file_path, process_dir_path)
+                        if type  == "BIAS":
+                            os.makedirs(process_dir_path,exist_ok=True)
+                            rename_fits_file(file_path, process_dir_path)
+                        if type  == "FLAT":
+                            os.makedirs(process_dir_path,exist_ok=True)
+                            rename_fits_file(file_path, process_dir_path)
+                        if type  == "OBJECT":
+                            os.makedirs(process_dir_path,exist_ok=True)
+                            mode = header["MODE"]
+                            if mode == "Spectroscopy":
                                 os.makedirs(process_dir_path,exist_ok=True)
                                 rename_fits_file(file_path, process_dir_path)
-                            if type  == "BIAS":
-                                os.makedirs(process_dir_path,exist_ok=True)
-                                rename_fits_file(file_path, process_dir_path)
-                            if type  == "FLAT":
-                                os.makedirs(process_dir_path,exist_ok=True)
-                                rename_fits_file(file_path, process_dir_path)
-                            if type  == "OBJECT":
-                                os.makedirs(process_dir_path,exist_ok=True)
-                                mode = header["MODE"]
-                                if mode == "Spectroscopy":
-                                    os.makedirs(process_dir_path,exist_ok=True)
-                                    rename_fits_file(file_path, process_dir_path)
-                                else:
-                                    print('Mode : ',mode)
-                                    if not "imaging" in file_path:
-                                        img_prs_path = os.path.join(process_folder_path,"imaging")
-                                        os.makedirs(img_prs_path, exist_ok=True)
-                                        # print( "\n folder created :",os.path.join(os.path.dirname(file_path),"imaging"))
+                            else:
+                                print('Mode : ',mode)
+                                if not "imaging" in file_path:
+                                    img_prs_path = os.path.join(process_folder_path,"imaging")
+                                    os.makedirs(img_prs_path, exist_ok=True)
+                                    # print( "\n folder created :",os.path.join(os.path.dirname(file_path),"imaging"))
 
-                                        image_path = os.path.join(img_prs_path,os.path.basename(file_path))
-                                        shutil.move(file_path,image_path)
-                                        print("\n file moved : ",os.path.join(os.path.dirname(file_path),"imaging",os.path.basename(file_path)))
-        #                                 # here do astrometry
-                                        with fits.open(image_path, ignore_missing_simple=True) as hdul:
-                                            header = hdul[0].header
-                                            ra =header['RA']
-                                            dec = header['DEC']
-                                            date_obs = header["DATE-OBS"]
-                                            year      =  datetime.fromisoformat(date_obs).year
-                                            telescope = header['TELESCOP']
-                                            instru = header['INSTRUME']
-                                            print("RA  : ",ra)
-                                            print("DEC : ",dec)
-                                            propid    = header.get("PROPNO", "PXX")
+                                    image_path = os.path.join(img_prs_path,os.path.basename(file_path))
+                                    shutil.move(file_path,image_path)
+                                    print("\n file moved : ",os.path.join(os.path.dirname(file_path),"imaging",os.path.basename(file_path)))
+    #                                 # here do astrometry
+                                    with fits.open(image_path, ignore_missing_simple=True) as hdul:
+                                        header = hdul[0].header
+                                        ra =header['RA']
+                                        dec = header['DEC']
+                                        date_obs = header["DATE-OBS"]
+                                        year      =  datetime.fromisoformat(date_obs).year
+                                        telescope = header['TELESCOP']
+                                        instru = header['INSTRUME']
+                                        print("RA  : ",ra)
+                                        print("DEC : ",dec)
+                                        propid    = header.get("PROPNO", "PXX")
 
-                                            try:
-                                                subprocess.call('solve-field --continue --downsample 2 --no-plots --config /home/archive/Documents/ARIES-archive/config/Astrometry.cfg --ra ' + str(ra) + ' --dec ' + str(dec) + ' --radius 20 ' +image_path, timeout=60, shell=True)
-                                            except subprocess.TimeoutExpired:
-                                                print("\n"+"Astrometry Timed Out (60s) For : "+file)
-                                                failed_path =os.path.join(os.path.dirname(image_path), "timeout_files")
-                                                # if not os.path.exists(failed_path):
-                                                os.makedirs(failed_path,exist_ok=True)
-                                                shutil.move(image_path,os.path.join(failed_path,file))
-                                                    # return False
-                                            else:
-                                                print("\n"+"Astrometry Ran Sucessfully For : "+file)
-                                            # os.system('rm -rf *.axy *.corr *.xyls *.match *.rdls *.solved *.wcs')
-                                            # return True
-                                                print("Image PAth ",image_path)
-                                                # new_filename = os.path.join(os.path.dirname(image_path),file).split('.')[0] + '.new'
+                                        try:
+                                            subprocess.call('solve-field --continue --downsample 2 --no-plots --config /home/archive/Documents/ARIES-archive/config/Astrometry.cfg --ra ' + str(ra) + ' --dec ' + str(dec) + ' --radius 20 ' +image_path, timeout=60, shell=True)
+                                        except subprocess.TimeoutExpired:
+                                            print("\n"+"Astrometry Timed Out (60s) For : "+file)
+                                            failed_path =os.path.join(os.path.dirname(image_path), "timeout_files")
+                                            # if not os.path.exists(failed_path):
+                                            os.makedirs(failed_path,exist_ok=True)
+                                            shutil.move(image_path,os.path.join(failed_path,file))
+                                                # return False
+                                        else:
+                                            print("\n"+"Astrometry Ran Sucessfully For : "+file)
+                                        # os.system('rm -rf *.axy *.corr *.xyls *.match *.rdls *.solved *.wcs')
+                                        # return True
+                                            print("Image PAth ",image_path)
+                                            # new_filename = os.path.join(os.path.dirname(image_path),file).split('.')[0] + '.new'
 
-                                                new_filename = os.path.splitext(image_path)[0] + '.new'
-                                                print("New path ",new_filename)
-                                                # image_final_path = os.path.join(process_dir_path,folder)
-                                                os.makedirs(process_dir_path,exist_ok=True)
-                                                if os.path.exists(new_filename):
-                                                    append_astrometryheader(image_path,new_filename)
-                                                    print('\n................exist...................\n')
-                                                    code = 'S'
-                                                    # new_name=code+f'-{year}AP{propid}-'+date_obs+'-'+telescope+'-'+instru+'.fits'
-                                                    
-                                                    # final_file = os.path.join()
-                                                    with fits.open(new_filename) as hdul:
-                                                        header = hdul[0].header
-                                                        propid =header["PROPNO"] 
-                                                        date_obs = header['DATE-OBS']
-                                                        telescope = header['TELESCOP']
-                                                        instru = header['INSTRUME']
+                                            new_filename = os.path.splitext(image_path)[0] + '.new'
+                                            print("New path ",new_filename)
+                                            # image_final_path = os.path.join(process_dir_path,folder)
+                                            os.makedirs(process_dir_path,exist_ok=True)
+                                            if os.path.exists(new_filename):
+                                                append_astrometryheader(image_path,new_filename)
+                                                print('\n................exist...................\n')
+                                                code = 'S'
+                                                # new_name=code+f'-{year}AP{propid}-'+date_obs+'-'+telescope+'-'+instru+'.fits'
+                                                
+                                                # final_file = os.path.join()
+                                                with fits.open(new_filename) as hdul:
+                                                    header = hdul[0].header
+                                                    propid =header["PROPNO"] 
+                                                    date_obs = header['DATE-OBS']
+                                                    telescope = header['TELESCOP']
+                                                    instru = header['INSTRUME']
+                                                    if "TEST" in new_filename.upper():
+                                                        new_name = f"T-{year}AP{propid}-{date_obs}-{telescope}-{instru}.fits"
+                                                        new_path = os.path.join( process_dir_path, new_name)
+                                                        os.rename(new_filename, new_path)
+                                                    else:
                                                         new_name = f"S-{year}AP{propid}-{date_obs}-{telescope}-{instru}.fits"
                                                         new_path = os.path.join( process_dir_path, new_name)
                                                         os.rename(new_filename, new_path)
-                                                        print(f"Renamed:  {new_path}")
-        #                                             # print(header.keys())
-                                                    os.makedirs(process_dir_path+"/thumbnails",exist_ok=True)
-                                                    (prefix, sep, suffix) = new_name.rpartition('.')
-                                                    thumb_name=prefix
-                                                    # print(os.path.join(db_path,new_name,'/{}.png'.format(thumb_name)))
-                                                    # import os
-                                                    # print(os.path.isfile(final_path+"/"+dir+'/Imaging'+'/'+new_name))
-                                                    with fits.open(new_path) as hdul:
-                                                        data = hdul[0].data 
-                                                    # Normalize data for better visualization
-                                                    norm = simple_norm(data, 'sqrt', percent=99)
+                                                    print(f"Renamed:  {new_path}")
+    #                                             # print(header.keys())
+                                                os.makedirs(process_dir_path+"/thumbnails",exist_ok=True)
+                                                (prefix, sep, suffix) = new_name.rpartition('.')
+                                                thumb_name=prefix
+                                                # print(os.path.join(db_path,new_name,'/{}.png'.format(thumb_name)))
+                                                # import os
+                                                # print(os.path.isfile(final_path+"/"+dir+'/Imaging'+'/'+new_name))
+                                                with fits.open(new_path) as hdul:
+                                                    data = hdul[0].data 
+                                                # Normalize data for better visualization
+                                                norm = simple_norm(data, 'sqrt', percent=99)
 
-                                                    # Create a grayscale image
-                                                    plt.figure(figsize=(8, 8))
-                                                    plt.imshow(data, norm=norm, cmap='gray', origin='lower')
-                                                    plt.xlabel('RA (J2000)')
-                                                    plt.ylabel('Dec (J2000)')
-                                                    plt.colorbar(label='Pixel Value')
+                                                # Create a grayscale image
+                                                plt.figure(figsize=(8, 8))
+                                                plt.imshow(data, norm=norm, cmap='gray', origin='lower')
+                                                plt.xlabel('RA (J2000)')
+                                                plt.ylabel('Dec (J2000)')
+                                                plt.colorbar(label='Pixel Value')
 
-                                                    # plt.savefig(final_path+"/"+dir+'/Imaging/thumbnails'+'/{}.png'.format(thumb_name),dpi=60)
-                                                    plt.savefig(process_dir_path+"/thumbnails"+'/{}.png'.format(thumb_name), dpi=60)
-                                                    # plt.savefig(os.path.join(db_path,'thumbnails',thumb_name+'.png'))
-                                                    print('Thumbnail saved!!')
-                                                    print("File saved to : ===============================================>>>>>>>>>>>> ",new_path)
-                                                else:
-                                                    print("\nAstrometry faild in '"+os.path.basename(image_path)+"'")
-                                                    if not os.path.exists(os.path.join(os.path.dirname(image_path),'failed_astrometry')):
-                                                        os.makedirs(os.path.join(os.path.dirname(image_path),'failed_astrometry'))
-                                                        shutil.move(image_path,os.path.join(os.path.dirname(image_path),'failed_astrometry'))
+                                                # plt.savefig(final_path+"/"+dir+'/Imaging/thumbnails'+'/{}.png'.format(thumb_name),dpi=60)
+                                                plt.savefig(process_dir_path+"/thumbnails"+'/{}.png'.format(thumb_name), dpi=60)
+                                                # plt.savefig(os.path.join(db_path,'thumbnails',thumb_name+'.png'))
+                                                print('Thumbnail saved!!')
+                                                print("File saved to : ===============================================>>>>>>>>>>>> ",new_path)
+                                            else:
+                                                print("\nAstrometry faild in '"+os.path.basename(image_path)+"'")
+                                                if not os.path.exists(os.path.join(os.path.dirname(image_path),'failed_astrometry')):
+                                                    os.makedirs(os.path.join(os.path.dirname(image_path),'failed_astrometry'))
+                                                    shutil.move(image_path,os.path.join(os.path.dirname(image_path),'failed_astrometry'))
         if os.path.exists(process_dir_path):                 
             fit_files = [f for f in os.listdir(process_dir_path) if f.lower().endswith('.fits')]
             print(fit_files)
@@ -506,6 +519,8 @@ def main():
 
             except Exception as e:
                 print("Error:", e)
+
+# uncommet form here to above to copy files to 1.9
 
         # file_path = (os.path.relpath(db_dest_path, paths_yaml['rel_path'])) # Relative file path to be inserted in the database
 
