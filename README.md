@@ -24,7 +24,7 @@ This repository includes tools for:
 - logging and reporting
 - archive preparation workflows
 
-## Repository Structure
+<!-- ## Repository Structure
 
 ARIES-Archive/
 │
@@ -42,7 +42,7 @@ ARIES-Archive/
 │   └── Notification system/
 ├── sync/
 ├── tests/
-└── docs/
+└── docs/ -->
 
 ## Requirements
 
@@ -69,6 +69,6 @@ ARIES-Archive/
 Clone the repository and run the desired scripts from the project directory.
 
 ```bash
-git clone <https://github.com/mp-amal/ARIES-archive.git>
-cd <ARIES-Archive>
+git clone https://github.com/mp-amal/ARIES-archive.git
+cd ARIES-Archive
 python SCHDULE.py

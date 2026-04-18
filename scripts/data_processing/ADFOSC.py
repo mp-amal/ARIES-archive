@@ -455,7 +455,21 @@ def main():
                 print(process_dir_path+ "--------------> copied to db")
                 if os.path.exists(process_dir_path+'/thumbnails'):
                     shutil.copytree(process_dir_path+'/thumbnails',thumpnail_path)               
+# remove test files from archvie folder
+            for file in os.listdir(db_dest_path):
+                file_path = os.path.join(db_dest_path, file)
 
+                if os.path.isfile(file_path) and file.startswith("T"):
+                    os.remove(file_path)
+                    print(f"Deleted: {file}")
+
+            for file in os.listdir(thumpnail_path):
+                file_path = os.path.join(thumpnail_path, file)
+
+                if os.path.isfile(file_path) and file.startswith("T"):
+                    os.remove(file_path)
+                    print(f"Deleted: {file}")
+# -------------------------------------------------------
 
             if date not in lines[1:]:
                 with open(ad, "a") as f:
