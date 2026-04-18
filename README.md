@@ -51,6 +51,19 @@ ARIES-Archive/
 - NumPy
 - Pandas
 
+## Project Summary
+
+| Item | Details |
+|------|---------|
+| Project | ARIES Data Archive |
+| Domain | Astronomical Data Management |
+| Institute | ARIES, Nainital |
+| Main Language | Python |
+| Purpose | Archival data processing and metadata organization |
+
+
+
+
 ## Usage
 
 Clone the repository and run the desired scripts from the project directory.
