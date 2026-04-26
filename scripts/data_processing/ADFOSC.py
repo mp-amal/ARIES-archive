@@ -103,15 +103,15 @@ def check_log_files(log_path,folder_to_process):
 def process_fits_file(file_path,rel_path,log_path):
     try:
         # Get PROPNO from external function
-        propid = PROPNO(file_path)
-        if propid is None:
-            propid = ["PXX"]
+        # propid = PROPNO(file_path)
+        # if propid is None:
+        #     propid = ["PXX"]
 
-        # Add PROPNO and ORIGFILE to header
-        with fits.open(file_path, mode='update') as hdulist:
-            header = hdulist[0].header
-            header["PROPNO"] = propid[0].replace('_', '')
-            header["ORIGFILE"] = rel_path
+        # # Add PROPNO and ORIGFILE to header
+        # with fits.open(file_path, mode='update') as hdulist:
+        #     header = hdulist[0].header
+        #     header["PROPNO"] = propid[0].replace('_', '')
+        #     header["ORIGFILE"] = rel_path
 
     #     # Open again to check if HISTORY keyword is present
         with fits.open(file_path, ignore_missing_simple=True) as hdul:
@@ -159,7 +159,7 @@ def process_fits_file(file_path,rel_path,log_path):
 
 def PROPNO(file_name):
     pattern = r'_P\d{1,2}'
-    last_folder = os.path.basename(os.path.dirname(file_name))
+    # last_folder = os.path.basename(os.path.dirname(file_name))
     # proppath = os.path.join(last_folder,os.path.basename(file_name))
     
     match = re.findall(pattern, os.path.basename(file_name), flags=re.IGNORECASE)
@@ -167,6 +167,7 @@ def PROPNO(file_name):
     # print("proposal id   - ",match)
     # Display the result
     if match:
+        print(match)
         return match
     else:
         print("No Proposal ID found in the file name.")
@@ -180,12 +181,7 @@ def rename_fits_file(filename, db_path):
     - filename : str : Path to the FITS file.
     - db_path  : str : Directory where the renamed file should be moved.
     """
-    if "TEST" in filename.upper():
-            new_name = f"T-{year}AP{propid[0].replace('_','').upper()}-{date_obs}-{telescope}-{instru}.fits"
-            new_path = os.path.join(db_path, new_name)
-            os.rename(filename, new_path)
-    else:
-        pass
+
 
     with fits.open(filename) as hdul:
         header    = hdul[0].header
@@ -204,14 +200,25 @@ def rename_fits_file(filename, db_path):
             'OBJECT': 'S'
         }
 
+    if "TEST" in filename.upper():
+            new_name = f"T-{year}AP{propid}-{date_obs}-{telescope}-{instru}.fits"
+            new_path = os.path.join(db_path, new_name)
+            os.rename(filename, new_path)
+    else:
+        pass
+
+
+
+
+
         if type_ in type_code_map:
             code = type_code_map[type_]
             print("TYPE CODE : ",code)
             if type ==['OBJECT'] and mode =='Spectroscopy':
                 code = 'SP'
-                new_name = f"{code}-{year}AP{propid[0].replace('_','').upper()}-{date_obs}-{telescope}-{instru}.fits"
+                new_name = f"{code}-{year}AP{propid}-{date_obs}-{telescope}-{instru}.fits"
             else:
-                new_name = f"{code}-{year}AP{propid[0].replace('_','').upper()}-{date_obs}-{telescope}-{instru}.fits"
+                new_name = f"{code}-{year}AP{propid}-{date_obs}-{telescope}-{instru}.fits"
             new_path = os.path.join(db_path, new_name)
             os.rename(filename, new_path)
 
@@ -268,7 +275,11 @@ with open(ad, "r") as f:
 
 # print(lines)
 
-
+def extract_p_folder(path):
+    match = re.search(r'/(P\d+)(/|$)', path)
+    if match:
+        return match.group(1)
+    return None
 
 
 def main():
@@ -300,10 +311,30 @@ def main():
                 # print(file)
                 if'.fit' in file :
                     file_path = os.path.join(path,file)
-                    # if not 'TEST' in file_path.upper():
                     process_path = Path(f"/data/{TELESCOPE}/ADFOSC/{cycle}/Processed_Data/raw_processing")
                     rel_path = Path(file_path).relative_to(process_path)
-                    print(rel_path)
+                    print(path)
+                    pi =extract_p_folder(path)
+                    # print(pi)
+
+
+                    # Add PROPNO and ORIGFILE to header
+                    with fits.open(file_path, mode='update') as hdulist:
+                        header = hdulist[0].header
+
+                        if pi is None :
+                            header["PROPNO"] = "PXX"
+                        else:
+                            header["PROPNO"] = pi
+                        header["ORIGFILE"] = str(rel_path)
+
+
+
+                    file_path = os.path.join(path,file)
+                    # if not 'TEST' in file_path.upper():
+                    
+                    
+                    # print(rel_path)
                     process_fits_file(file_path,str(rel_path),log_path)
     # # #                 # if not os.path.exists(file_path):
     # # #                 #         continue
@@ -422,6 +453,7 @@ def main():
 
                                                 # plt.savefig(final_path+"/"+dir+'/Imaging/thumbnails'+'/{}.png'.format(thumb_name),dpi=60)
                                                 plt.savefig(process_dir_path+"/thumbnails"+'/{}.png'.format(thumb_name), dpi=60)
+                                                plt.close()
                                                 # plt.savefig(os.path.join(db_path,'thumbnails',thumb_name+'.png'))
                                                 print('Thumbnail saved!!')
                                                 print("File saved to : ===============================================>>>>>>>>>>>> ",new_path)
@@ -533,6 +565,50 @@ def main():
 
             except Exception as e:
                 print("Error:", e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # uncommet form here to above to copy files to 1.9
 
