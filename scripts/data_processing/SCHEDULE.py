@@ -8,10 +8,12 @@ scripts = [
     "/home/archive/Documents/ARIES-archive/scripts/sync/dfot.py",      # DFOT data sync
     "/home/archive/Documents/ARIES-archive/scripts/sync/adfosc.py",    
     "/home/archive/Documents/ARIES-archive/scripts/sync/st.py",
+    "/home/archive/Documents/ARIES-archive/scripts/sync/tanspec.py",
 
     "/home/archive/Documents/ARIES-archive/scripts/data_processing/DFOT.py",
     "/home/archive/Documents/ARIES-archive/scripts/data_processing/ST.py",
     "/home/archive/Documents/ARIES-archive/scripts/data_processing/ADFOSC.py",
+    "/home/archive/Documents/ARIES-archive/scripts/data_processing/TANSPEC.py",
     "/home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/JSON_UPDATE.py",
     "/home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py"
 

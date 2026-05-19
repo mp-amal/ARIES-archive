@@ -529,7 +529,6 @@ def main():
             
             import paramiko
             from scp import SCPClient
-
             server_ip = arch_cred['ip']
             username = arch_cred['user']
             password = arch_cred['password']
