@@ -104,107 +104,149 @@ def main():
         for path,dirs,files in os.walk(source_folder_path):
             for file in files:
                 # print(file)
+                if file.endswith(".log"):
+                    if not os.path.exists(os.path.join(process_folder_path, file)):
+                        rel_log_path = path.split("rawdata/")[-1]
+                        os.makedirs(os.path.join(final_path,rel_log_path),exist_ok=True)
+                        log_path = os.path.join(final_path,rel_log_path,file)
+                        # print(log_path)
+                        shutil.copy(os.path.join(path, file), log_path)
                 if file.endswith("Z.fits") and file.upper().startswith("SLOPE-") :
                     # print(path,file)
-                    
                     if not os.path.exists(os.path.join(process_folder_path, file)):
-                        shutil.copy(os.path.join(path, file), os.path.join(process_folder_path, file))
-                        # print("copied")
-                        pass
-                        # print(file_to_process)
+                        rel_file_path = os.path.join((path.split("rawdata/")[-1]),file)
+                        # print(rel_file_path)
+                        os.makedirs(os.path.join(f'/data/{TELESCOPE}/TANSPEC/{cycle}/Processed_Data/raw_processing/',path.split("rawdata/")[-1]),exist_ok=True)
+
+                        shutil.copy(os.path.join(path, file), os.path.join(f'/data/{TELESCOPE}/TANSPEC/{cycle}/Processed_Data/raw_processing/', rel_file_path))
+                        with fits.open(os.path.join(os.path.join(f'/data/{TELESCOPE}/TANSPEC/{cycle}/Processed_Data/raw_processing/', rel_file_path)), mode='update') as hdul:
+                            header = hdul[0].header
+                            # header['ORIGFILE'] = file
+                            header.set('ORGFILE', rel_file_path, 'FIle path form Archive', after='FNAME')
+                            hdul.flush()
+
 # Copying process done -----------------------------------------------------------------------------------
         for path,dirs,files in os.walk(process_folder_path):
             for file in files:
-                    # print(file)
-                    file_to_process = os.path.join(path, file)
-                    if "SLOPE-" in file.upper():
-                        # with fits.open(file_to_process) as hdul:
-                        with fits.open(file_to_process, mode='update') as hdul:
-                            
-                            header = hdul[0].header
-                            # header['ORIGFILE'] = file
-                            header.set('ORGFILE', file, 'File name received in archive for processing', after='FNAME')
-                            Date_obs = header["DATE_OBS"] + "T" + header["TIME_OBS"]
-                            dt = datetime.fromisoformat(Date_obs)
-                            rounded_ms = round(dt.microsecond / 1000)
-                            dt_rounded = dt.replace(microsecond=0) + timedelta(milliseconds=rounded_ms)
-                            Date_obs = dt_rounded.isoformat(timespec='milliseconds')
-                            dt_object = datetime.fromisoformat(header["DATE_OBS"])
-                            hdul.flush()
-                            # 2. Print the year
-                            year = str(dt_object.year)
-                            object = header["OBJECT"].upper() 
-                            file_instrument_pc_path = header["PATH"]
-                            # print(cycle)
-                            if cycle in file_instrument_pc_path:
-                                file_rel_path = file_instrument_pc_path.split(cycle)[1][1:]
-                            pi = extract_p_folder(os.path.join(file_instrument_pc_path,header['FNAME']))
-                            # print(pi)
-                            if pi == None:
-                                # print(file,file_instrument_pc_path)
-                                pi = "PXX"
-                            if object == "LAMP":
-                                # print(file)
-                                lamp_name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                            elif "CONT" in file.upper():
-                                name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                                    print("renamed")                            
-                            elif "AR" in file.upper():
-                                name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                                    print("renamed")
-                            elif "NE" in file.upper()   :
-                                name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                                    print("renamed")
-                            
-                            elif "TEST" in file.upper()   :
-                                name = "TEST-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                                    # print(f_path)
-                            elif "FLAT" in file.upper() :
-                                name = "F-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                            elif header ["EPADU"]==1.07:
-                                name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
-                            else:
-                                name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                                f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                                os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                                if not os.path.exists(f_path):
-                                    os.rename(file_to_process, f_path)
-                                    dest_path(name,date,f_path)
+                print(file)
+                file_to_process = os.path.join(path, file)
+                if "SLOPE-" in file.upper():
+                #     # with fits.open(file_to_process) as hdul:
+                    with fits.open(file_to_process, mode='update') as hdul:
+                        
+                        header = hdul[0].header
+                #         # header['ORIGFILE'] = file
+                #         # header.set('ORGFILE', file, 'File name received in archive for processing', after='FNAME')
+                        Date_obs = header["DATE_OBS"] + "T" + header["TIME_OBS"]
+                        dt = datetime.fromisoformat(Date_obs)
+                        rounded_ms = round(dt.microsecond / 1000)
+                        dt_rounded = dt.replace(microsecond=0) + timedelta(milliseconds=rounded_ms)
+                        Date_obs = dt_rounded.isoformat(timespec='milliseconds')
+                        dt_object = datetime.fromisoformat(header["DATE_OBS"])
+                        hdul.flush()
+                #         # 2. Print the year
+                        year = str(dt_object.year)
+                        object = header["OBJECT"].upper() 
+                        file_instrument_pc_path = os.path.join(path,file)
+                #         # print(cycle)
+                        if cycle in file_instrument_pc_path:
+                            file_rel_path = file_instrument_pc_path.split("raw_processing")[1][1:]
+                            # print(file_rel_path)
+                        pi = extract_p_folder(os.path.join(file_instrument_pc_path,header['FNAME']))
+                        # print(pi)
+                        if pi == None:
+                            # print(file,file_instrument_pc_path)
+                            pi = "PXX"
+
+                        if "TEST" in file_to_process.upper()   :
+                            name = "TEST-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+                #                 # print(f_path)
+                            continue
+                        if object == "LAMP":
+                #             # print(file)
+                            name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # print(lamp_name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            # print(f_path)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+                                continue
+                        if "CONT" in file.upper():
+                            name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+                                print("renamed")  
+                                continue                          
+                        if "AR" in file.upper():
+                            name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+                                print("renamed")
+                                continue
+                        if "NE" in file.upper()   :
+                            name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+                                print("renamed")
+                                continue
+                        
+                        # elif "TEST" in final_path.upper()   :
+                        #     name = "TEST-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                        #     # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                        #     f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                        #     os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                        #     if not os.path.exists(f_path):
+                        #         os.rename(file_to_process, f_path)
+                        #         dest_path(name,date,f_path)
+                        #         # print(f_path)
+                        # elif "FLAT" in file.upper() :
+                        #     name = "F-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                        #     # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                        #     f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                        #     os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                        #     if not os.path.exists(f_path):
+                        #         os.rename(file_to_process, f_path)
+                        #         dest_path(name,date,f_path)
+                        # elif header ["EPADU"]==1.07:
+                        #     name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                        #     # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                        #     f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                        #     os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                        #     if not os.path.exists(f_path):
+                        #         os.rename(file_to_process, f_path)
+                        #         dest_path(name,date,f_path)
+                        else:
+                            name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
+                            # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
+                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            os.makedirs(os.path.dirname(f_path), exist_ok=True)
+                            if not os.path.exists(f_path):
+                                os.rename(file_to_process, f_path)
+                                dest_path(name,date,f_path)
+
+
+
+# -------------------------------------------- normal file processing -------------------------------------------------
                     # else:
                         # with fits.open(file_to_process) as hdul:
                         #     header = hdul[0].header
@@ -321,20 +363,4 @@ def main():
 
         except Exception as e:
             print("Error:", e)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 main()
