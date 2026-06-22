@@ -37,7 +37,7 @@ def get_current_cycle_name():
     year = today.year
     month = today.month
 
-    if month in [2, 3, 4, 5]:
+    if month in [2, 3, 4, 5, 6]:
         return f"{year}A"
     elif month in [10, 11, 12]:
         return f"{year}B"

@@ -5,7 +5,7 @@ import random
 import yaml
 from astropy.io import fits
 from datetime import datetime, timedelta, date
-
+from pathlib import Path
 
 TELESCOPE = 'DOT'
 
@@ -25,7 +25,7 @@ def get_current_cycle_name():
     year = today.year
     month = today.month
 
-    if month in [2, 3, 4, 5]:
+    if month in [2, 3, 4, 5, 6]:
         return f"{year}-C1"
     elif month in [10, 11, 12]:
         return f"{year}-C2"
@@ -107,8 +107,10 @@ def main():
                 if file.endswith(".log"):
                     if not os.path.exists(os.path.join(process_folder_path, file)):
                         rel_log_path = path.split("rawdata/")[-1]
-                        os.makedirs(os.path.join(final_path,rel_log_path),exist_ok=True)
-                        log_path = os.path.join(final_path,rel_log_path,file)
+                        # os.makedirs(os.path.join(final_path,rel_log_path),exist_ok=True)
+                        log_path = Path(os.path.join(final_path,rel_log_path,file))
+                        log_path = log_path.parent.parent / log_path.name
+                        os.makedirs(os.path.dirname(log_path), exist_ok=True)
                         # print(log_path)
                         shutil.copy(os.path.join(path, file), log_path)
                 if file.endswith("Z.fits") and file.upper().startswith("SLOPE-") :
@@ -161,7 +163,9 @@ def main():
                         if "TEST" in file_to_process.upper()   :
                             name = "TEST-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
+                            print(f_path)
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
                                 os.rename(file_to_process, f_path)
@@ -172,7 +176,8 @@ def main():
                 #             # print(file)
                             name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # print(lamp_name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
                             # print(f_path)
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
@@ -182,7 +187,8 @@ def main():
                         if "CONT" in file.upper():
                             name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
                                 os.rename(file_to_process, f_path)
@@ -192,7 +198,8 @@ def main():
                         if "AR" in file.upper():
                             name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
                                 os.rename(file_to_process, f_path)
@@ -202,7 +209,8 @@ def main():
                         if "NE" in file.upper()   :
                             name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
                                 os.rename(file_to_process, f_path)
@@ -238,94 +246,12 @@ def main():
                         else:
                             name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
                             # f_path = os.path.join(final_path, file_rel_path,"hxrgproc_reprocessed_slope_images",name)
-                            f_path = os.path.join(final_path, os.path.dirname(file_rel_path),name)
+                            f_path = Path(os.path.join(final_path, os.path.dirname(file_rel_path),name))
+                            f_path = f_path.parent.parent / f_path.name
                             os.makedirs(os.path.dirname(f_path), exist_ok=True)
                             if not os.path.exists(f_path):
                                 os.rename(file_to_process, f_path)
                                 dest_path(name,date,f_path)
-
-
-
-# -------------------------------------------- normal file processing -------------------------------------------------
-                    # else:
-                        # with fits.open(file_to_process) as hdul:
-                        #     header = hdul[0].header
-                        #     header['ORIGFILE'] = file
-                        #     Date_obs = header["DATE_OBS"] + "T" + header["TIME_OBS"]
-                        #     dt = datetime.fromisoformat(Date_obs)
-                        #     rounded_ms = round(dt.microsecond / 1000)
-                        #     dt_rounded = dt.replace(microsecond=0) + timedelta(milliseconds=rounded_ms)
-                        #     Date_obs = dt_rounded.isoformat(timespec='milliseconds')
-                        #     dt_object = datetime.fromisoformat(header["DATE_OBS"])
-
-                        #     # 2. Print the year
-                        #     year = str(dt_object.year)
-                        #     object = header["OBJECT"].upper() 
-                        #     file_instrument_pc_path = header["PATH"]
-                        #     # print(cycle)
-                        #     if cycle in file_instrument_pc_path:
-                        #         file_rel_path = file_instrument_pc_path.split(cycle)[1][1:]
-                        #     pi = extract_p_folder(os.path.join(file_instrument_pc_path,header['FNAME']))
-                        #     # print(pi)
-                        #     if pi == None:
-                        #         # print(file,file_instrument_pc_path)
-                        #         pi = "PXX"
-                        #     if object == "LAMP":
-                        #         # print(file)
-                        #         lamp_name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #     elif "CONT" in file.upper():
-                        #         lamp_name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #             print("renamed")                            
-                        #     elif "AR" in file.upper():
-                        #         lamp_name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #             print("renamed")
-                        #     elif "NE" in file.upper()   :
-                        #         lamp_name = "L-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #             print("renamed")
-                        #     elif "TEST" in file.upper()   :
-                        #         lamp_name = "TEST-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,lamp_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #             # print(f_path)
-                        #     elif "FLAT" in file.upper() :
-                        #         flat_name = "F-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,flat_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #     elif header ["SIMPLE"]=="T":
-                        #         obj_name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,obj_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-                        #     else:
-                        #         obj_name = "S-"+cycle+pi+Date_obs+"-"+TELESCOPE+"-TANSPEC.fits"
-                        #         f_path = os.path.join(final_path, file_rel_path,obj_name)
-                        #         os.makedirs(os.path.dirname(f_path), exist_ok=True)
-                        #         if not os.path.exists(f_path):
-                        #             os.rename(file_to_process, f_path)
-
-
-        
         import paramiko
         from scp import SCPClient
         server_ip = arch_cred['ip']

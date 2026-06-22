@@ -6,6 +6,25 @@ import yaml
 # import  pathlib
 from pathlib import Path
 
+import sys
+from datetime import datetime
+
+def check_cycle():
+    date_to_check = datetime.now().date()
+
+    # Valid period: October 1 through June 15, inclusive
+    if date_to_check.month >= 10 or (
+        date_to_check.month < 6
+        or (date_to_check.month == 6 and date_to_check.day <= 15)
+    ):
+        pass
+    else:
+        print(f"{date_to_check}")
+        sys.exit("Cycle is Over.")
+
+check_cycle()
+
+
 scripts = [
     "/home/archive/Documents/ARIES-archive/scripts/sync/dfot.py",      # DFOT data sync
     "/home/archive/Documents/ARIES-archive/scripts/sync/adfosc.py",    
@@ -17,7 +36,7 @@ scripts = [
     "/home/archive/Documents/ARIES-archive/scripts/data_processing/ADFOSC.py",
     "/home/archive/Documents/ARIES-archive/scripts/data_processing/TANSPEC.py",
     "/home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/JSON_UPDATE.py",
-    # "/home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py"
+    "/home/archive/Documents/ARIES-archive/scripts/Notifications_syatem/MAIL.py"
 
 ]
 
